@@ -1,0 +1,173 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
+
+body {
+    background-color: #e0f2fe;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column; /* ຈັດລຽງເນື້ອຫາຕາມແນວຕັ້ງ */
+    min-height: 100vh;
+    background-image: url('background-pattern.png');
+    background-size: cover;
+    background-attachment: fixed; /* ຮັກສາພື້ນຫຼັງໃຫ້ຢູ່ກັບທີ່ */
+}
+
+
+.about-section {
+    background-color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 40px;
+   
+    width: 90%; /* ເພີ່ມຂະໜາດກ່ອງໃຫ້ກວ້າງຂຶ້ນ */
+    max-width: 1200px; /* ເພີ່ມຂະໜາດສູງສຸດ */
+    margin: 20px auto; /* ຈັດໃຫ້ຢູ່ກາງຕາມແນວນອນ ແລະ ມີ margin ດ້ານເທິງ/ລຸ່ມ */
+    box-sizing: border-box; /* ໃຫ້ padding ແລະ border ລວມເຂົ້າໃນ width */
+}
+
+.image-box img {
+    max-width: 90%;
+    height: auto;
+    margin-right: 30px;
+}
+.container h2 {
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left; /* ຈັດຂໍ້ຄວາມຫົວຂໍ້ໄວ້ກັບການຈັດລຽງ */
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+
+
+.container p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 30px;
+    text-align: left; /* ຈັດຂໍ້ຄວາມເນື້ອຫາໄວ້ຊ້າຍ */
+    font-size: 1.1rem;
+}
+
+.col-md-6 h2 {
+    color: #333;
+    text-align: left; /* ຈັດຂໍ້ຄວາມຫົວຂໍ້ໄວ້ກັບການຈັດລຽງ */
+    margin-bottom: 0;
+   
+}
+.details-box p {
+    color: #666;
+    line-height: 1.6;
+    margin-bottom: 10px;
+    text-align: left; /* ຈັດຂໍ້ຄວາມເນື້ອຫາໄວ້ຊ້າຍ */
+    font-size: 1.1rem;
+
+}
+
+.btn-primary {
+    background-color: #283593;
+    color: white;
+    padding: 12px 24px;
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.btn-primary:hover {
+    background-color: #1e3a8a;
+}
+
+.text-center {
+    text-align: left; /* ປ່ຽນເປັນຈັດຂໍ້ຄວາມຊ້າຍ */
+}
+
+.row {
+    display: flex;
+    align-items: flex-start;
+}
+
+.col-md-6 {
+    flex: 1;
+    display: flex; /* ເພີ່ມ flex container ເພື່ອຈັດລຽງເນື້ອຫາ */
+    flex-direction: column; /* ຈັດລຽງເນື້ອຫາຕາມແນວຕັ້ງ */
+}
+
+/* ເພີ່ມ media queries ເພື່ອໃຫ້ເວັບໄຊຕອບສະໜອງ */
+@media (max-width: 768px) {
+    .about-section {
+        width: 95%; /* ປັບຂະໜາດກ່ອງໃຫ້ນ້ອຍລົງໃນໜ້າຈໍຂະໜາດນ້ອຍ */
+        padding: 20px;
+    }
+
+    .image-box img {
+        max-width: 100%; /* ເຮັດໃຫ້ຮູບເຕັມຄວາມກວ້າງ */
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .row {
+        flex-direction: column; /* ປ່ຽນເປັນຈັດລຽງຕາມແນວຕັ້ງໃນໜ້າຈໍຂະໜາດນ້ອຍ */
+    }
+}
+
+/* ... CSS ອື່ນໆ ... */
+
+/* ... CSS ອື່ນໆ ... */
+
+/* ... CSS ອື່ນໆ ... */
+
+.details-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  
+}
+
+.social-icons {
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 50px;
+    height: 50px;
+    background-color: #f0f0f0;
+    border-radius: 50%;
+    margin: 0 15px;
+    color: #333;
+    text-decoration: none;
+    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+}
+
+.social-icon:hover {
+    transform: translateY(-5px); /* ເດັ້ງໄອຄອນຂຶ້ນ */
+}
+
+.social-icon:hover i {
+    color: #fff; /* ປ່ຽນສີໄອຄອນເປັນສີຂາວເມື່ອເມົາໄປຊີ */
+}
+
+.social-icon:hover {
+    background-color: #25D366; /* ສີຂຽວສໍາລັບ WhatsApp */
+}
+
+.social-icon:nth-child(2):hover {
+    background-color: #1877F2; /* ສີຟ້າສໍາລັບ Facebook */
+}
+
+.social-icon:nth-child(3):hover {
+    background-color: #D44638; /* ສີແດງສໍາລັບ Email */
+}
+
+.social-icon:nth-child(4):hover {
+    background-color: #000000; /* ສີດໍາສໍາລັບ TikTok */
+}
+.social-icon i {
+    font-size: 20px; /* ເພີ່ມຂະໜາດໄອຄອນເປັນ 30px */
+}
+/* ຖ້າເຈົ້າມີໄອຄອນອື່ນໆ, ເພີ່ມ CSS ທີ່ນີ້ */

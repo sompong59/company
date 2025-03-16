@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
+
+body{
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+
+.my-container {
+    width: 100%;
+    max-width: 1200px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-bottom: 5px solid #283593; /* ເພີ່ມເສັ້ນຂອບທາງພື້ນ */
+}
+
+.my-header {
+    background-color: #283593;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    position: relative;
+}
+
+.my-header h1 {
+    margin: 0;
+}
+
+.my-orange-bar {
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 50px;
+    height: 100%;
+    background-color: #ff9800;
+}
+
+.my-customer-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+    gap: 20px;
+    padding: 20px;
+    text-align: center;
+}
+
+.my-customer-item img {
+    max-width: 100%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.my-customer-item img:hover {
+    transform: scale(1.1);
+}
+
+/* Media Queries */
+@media (max-width: 768px) {
+    .my-container {
+        width: 95%;
+    }
+
+    .my-customer-grid {
+        grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+        gap: 10px;
+    }
+
+    .my-header {
+        padding: 15px;
+    }
+
+    .my-orange-bar {
+        width: 30px;
+    }
+}
+
+@media (max-width: 480px) {
+    .my-customer-grid {
+        grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    }
+}

@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
+
+body{
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+}
+
+
+.herologo { /* ປ່ຽນ .hero ເປັນ .herologo */
+    display: flex;
+    width: 100%;
+    height: 600px;
+}
+
+.hero-image {
+    flex: 1;
+    overflow: hidden;
+}
+
+.hero-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero-content {
+    flex: 1.5;
+    background-color: #283593;
+    color: white;
+    padding: 50px 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.company-logo img {
+    height: 150px;
+    margin-bottom: 10px;
+    animation: logoFloat1 2s ease-in-out infinite alternate;
+}
+
+@keyframes logoFloat1 {
+    0% {
+        transform: translateY(0);
+    }
+    100% {
+        transform: translateY(-20px);
+    }
+}
+
+.hero-content h1 {
+    font-size: 3rem;
+    margin-top: 10px;
+}
+
+.consultation-btn {
+    font-family: 'Noto Sans Lao Looped', sans-serif;
+
+    background-color: #e6cf00;
+    color: #283593;
+    padding: 18px 35px;
+    border: none;
+    cursor: pointer;
+    font-size: 1.2rem;
+    font-weight: bold;
+    border-radius: 8px;
+    margin-bottom: 10px;
+   
+}
+
+.consultation-btn:hover {
+    background-color: #fdd835;
+    transform: translateY(-3px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+.hero-social-icons {
+    display: flex;
+}
+
+.hero-social-icons a {
+    color: white;
+    margin-right: 25px;
+    font-size: 1.8rem;
+    transition: color 0.3s ease;
+    border: none;
+}
+
+.hero-social-icons a:hover {
+    color: #ffeb3b;
+}
+
+/* ເພີ່ມ CSS ສຳລັບໄອຄອນແຕ່ລະອັນ */
+.hero-icon-instagram:before {
+    content: "\f16d"; /* ລະຫັດໄອຄອນ Instagram */
+    font-family: "Font Awesome 5 Brands";
+}
+
+.hero-icon-facebook:before {
+    content: "\f39e"; /* ລະຫັດໄອຄອນ Facebook */
+    font-family: "Font Awesome 5 Brands";
+}
+
+.hero-icon-twitter:before {
+    content: "\f099"; /* ລະຫັດໄອຄອນ Twitter */
+    font-family: "Font Awesome 5 Brands";
+}
+
+/* Media Queries for Responsive Design */
+@media (max-width: 768px) {
+    .herologo { /* ປ່ຽນ .hero ເປັນ .herologo */
+        flex-direction: column;
+        height: auto;
+    }
+
+    .hero-image {
+        flex: none;
+        height: 300px;
+    }
+
+    .hero-content {
+        padding: 50px 30px;
+    }
+
+    .hero-content h1 {
+        font-size: 1rem;
+    }
+
+    .consultation-btn {
+        font-size: 1rem;
+        padding: 15px 30px;
+    }
+
+    .hero-social-icons a {
+        font-size: 1.5rem;
+        margin-right: 20px;
+    }
+}
+
+@media (max-width: 480px) {
+    .company-logo img {
+        height: 80px;
+    }
+
+    .hero-content h1 {
+        font-size: 1rem;
+    }
+}

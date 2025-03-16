@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
+
+
+body {
+    font-family: "Noto Sans Lao Looped", sans-serif;
+  
+}
+.translate-service-container {
+    width: 90%;
+    max-width: 1200px;
+    margin: 40px auto;
+}
+
+.translate-top-section {
+    
+    padding: 20px;
+    text-align: center;
+}
+
+.translate-top-section-content h2 {
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.translate-top-section-content p {
+    color: #333;
+}
+
+.containercard {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 20px 20px; /* ລົບ padding ດ້ານເທິງ */
+ 
+  
+}
+
+.service-card {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+    padding: 0;
+    width: 300px;
+    border-right: 1px solid #ddd;
+    display: flex; /* ເພີ່ມ flexbox ໃຫ້ກັບກ່ອງບໍລິການ */
+    flex-direction: column; /* ຈັດລຽງອົງປະກອບເປັນຖັນ */
+}
+
+.service-card:last-child {
+    border-right: none;
+}
+
+
+.service-card h2 {
+    font-size: 1.5em;
+    margin: 0;
+    background-color: #0051a2;
+    color: #fff;
+    padding: 10px;
+    border-radius: 8px 8px 0 0;
+    text-align: center;
+}
+
+.service-card p {
+    font-weight: bold;
+    margin: 15px 20px;
+}
+
+.service-card ul {
+    list-style: none;
+    padding: 0 20px;
+    flex-grow: 1; /* ໃຫ້ <ul> ຂະຫຍາຍເຕັມພື້ນທີ່ */
+}
+
+.service-card li {
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid #d4d4d4;
+    padding-bottom: 8px;
+}
+
+.service-card li:last-child {
+    border-bottom: none;
+    padding-bottom: 0;
+}
+
+.service-card li i {
+    margin-right: 8px;
+    color: #28a745;
+}
+
+.quote-button {
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 16px;
+    background-color: #0051a2;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 15px 20px;
+    width: calc(100% - 40px);
+}
+.quote-button:hover{
+    background-color: #003c7c;
+}
+
+@media (max-width: 768px) {
+    .service-card,.translate-top-section {
+        width: 90%;
+       
+        border-right: none;
+        margin-left:  20px; 
+        
+       
+    }
+    .translate-top-section-content h2 {
+        text-align: left;
+        padding: 0;
+        margin: 0;
+    }
+    .translate-top-section{
+        text-align: left;
+        
+    }
+    .service-card:last-child {
+        border-bottom: none;
+    }
+    .translate-top-section:last-child{
+        border-bottom: none;
+    }
+}
+.language-selector {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.language-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.language-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    text-decoration: none;
+    color: #000000;
+    animation: slideLeft 2s linear infinite alternate; /* ເພີ່ມ animation */
+}
+
+.language-item img {
+    width: 100px;
+    height: 70px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.language-item span {
+    font-size: 0.9em;
+}
+/* Hover Effect */
+.language-item:hover {
+    transform: translateY(-5px); /* ເຄື່ອນຍ້າຍຂຶ້ນເມື່ອ hover */
+}
+
+.language-item:hover img {
+    transform: scale(1.1); /* ຂະຫຍາຍຮູບພາບເມື່ອ hover */
+}
+
+.language-item:hover span {
+    color: #0056b3; /* ປ່ຽນສີຂໍ້ຄວາມເມື່ອ hover */
+}
+@keyframes slideLeft {
+    0% {
+        transform: translateX(10px);
+    }
+    100% {
+        transform: translateX(-10px);
+    }
+}
+/* Responsive Design */
+@media (max-width: 768px) {
+    .language-item {
+        width: 33.33%; /* ໃຫ້ແຕ່ລະອົງປະກອບໃຊ້ 33.33% ຂອງຄວາມກວ້າງ */
+        margin: 10px 0; /* ປັບ margin */
+    }
+    .language-item img {
+        width: 60px;
+        height: 40px;
+        
+    }
+}

@@ -1,0 +1,100 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&family=Noto+Serif+Lao:wght@100..900&display=swap');
+* {
+    box-sizing: border-box; /* ກຳນົດ box-sizing ໃສ່ອົງປະກອບທັງໝົດ */
+}
+.team-body {
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #00204a;
+}
+
+.team-header {
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
+.team-header h1 {
+    color: white; /* ສີຂາວສໍາລັບ "ທີມງານ" */
+}
+
+.team-header h1 span {
+    color: rgb(0, 204, 255); /* ສີຟ້າອ່ອນສໍາລັບ "ບໍລິສັດ" */
+}
+
+.team-container {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding: 20px;
+    width: 100%;
+    
+}
+
+.team-member {
+    background-color: #002b64;
+    color: white;
+    text-align: center;
+    width: 23%; /* ປ່ຽນຄວາມກວ້າງເປັນ 23% */
+    margin: 10px; /* ປ່ຽນ margin ເປັນ 10px ເພື່ອໃຫ້ມີຊ່ອງຫວ່າງ */
+    padding: 10px;
+    border-radius: 10px;
+   
+    
+   
+}
+.team-member h3 {
+    color: rgb(0, 204, 255); /* ປ່ຽນສີຊື່ */
+}
+
+.team-member h3 {
+    color: rgb(0, 204, 255);
+    font-size: 1.3em; /* ເພີ່ມຂະໜາດຊື່ */
+}
+
+.team-member p {
+    font-size: 1em; /* ເພີ່ມຂະໜາດຂໍ້ຄວາມ */
+}
+
+.team-member img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid white; /* ເພີ່ມຂອບສີຂາວ */
+}
+
+.team-member-social-icons a {
+    color: white;
+    font-size: 22px;
+    text-decoration: none; /* ລົບຂີດກ້ອງ */
+    font-weight: 500;
+    margin-right: 40px; /* ປ່ຽນໄລຍະຫ່າງດ້ານຂວາເປັນ 25px */
+}
+.team-member-social-icons a:last-child {
+    margin-right: 0;
+}
+.team-member-social-icons a:hover{
+   color: #00bbf0;
+   
+}
+/* Media Queries ສໍາລັບການຕອບສະໜອງ */
+@media (max-width: 768px) {
+    .team-member {
+        width: 90%; /* ປ່ຽນຂະໜາດກ່ອງໃຫ້ກວ້າງ 90% ເມື່ອໜ້າຈໍນ້ອຍກວ່າ 768px */
+        margin: 20px auto; /* ເພີ່ມ margin: 0 auto; */
+    }
+}
+
+@media (max-width: 480px) {
+    .team-member {
+        width: 90%; /* ປ່ຽນຂະໜາດກ່ອງໃຫ້ກວ້າງ 90% ເມື່ອໜ້າຈໍນ້ອຍກວ່າ 480px */
+        margin: 20px auto; /* ເພີ່ມ margin: 0 auto; */
+    
+    }
+}
+
+
+
+
