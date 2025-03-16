@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- <link rel="stylesheet" href="footer.css"> -->
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
+
+</head>
+<style>
+    @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&family=Noto+Serif+Lao:wght@100..900&display=swap');
+
+
+.footer {
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    background-color: #003366;
+    color: white;
+    padding: 30px 0;
+    font-size: 18px;
+    font-weight: 500;
+    
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-section {
+    flex: 1;
+    min-width: 250px;
+    padding: 0 20px;
+    margin-bottom: 20px;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+
+.footer-section p,
+.footer-section ul li {
+    font-size: 0.9em;
+    line-height: 1.6;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-icons a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+    background-color: rgba(0, 141, 177, 0.1);
+    margin-right: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.footer-icons a:hover {
+    background-color: #04eeff;
+}
+
+.footer-section ul li a:hover {
+    color: #04eeff;
+}
+
+.subscribe-form {
+    display: flex;
+}
+
+.subscribe-form input[type="email"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex: 1;
+    min-width: 200px;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+}
+
+.subscribe-form button {
+    background-color: #00a0e9;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    font-size: 16px;
+}
+
+.footer-bottom {
+    text-align: center;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+    background-color: #fff;
+    color: #000000;
+}
+
+@media (max-width: 768px) {
+    .footer-section {
+        flex: 100%;
+        margin-bottom: 30px;
+        margin-left: 30px;
+        text-align: left;
+      
+    }
+
+    .footer-bottom {
+        font-size: 12px;
+    }
+
+    .footer-section h3 {
+        text-align: left;
+    }
+
+    .footer-section ul {
+        text-align: left;
+    }
+}
+
+   
+footer {
+    margin-top: auto;
+    
+}
+</style>
+<body>
+    
+
+<footer class="footer">
+  <div class="footer-container">
+      <div class="footer-section">
+          <h3>ທີ່ຢູ່ບໍລິສັດ</h3>
+            <p><i class="fas fa-map-marker-alt"></i> ຕຳແໜງ ບ້ານ ໂພນສະຫວ່າງ, ຮ່ອມ 11 ເມືອງ ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</p>
+            <p><i class="fas fa-phone"></i> +856 020 52 774 279</p>
+            <p><i class="far fa-envelope"></i> Techa.translation@gmail.com</p>
+          <div class="footer-icons">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+          </div>
+      </div>
+      <div class="footer-section">
+          <h3>ຂໍ້ມູນ</h3>
+          <p>ບໍລິສັດເທີກອາດ ແປພາສາຕ່າງປະເທດ ຈຳກັດຜູ້ດຽວ</p>
+          
+      </div>
+      <div class="footer-section">
+          <h3>ການບໍລິການ</h3>
+          <ul>
+              <li><a href="#">ໜ້າຫຼັກ</a></li>
+              <li><a href="#">ປະເພດການແປ</a></li>
+              <li><a href="#">ຂັ້ນຕອນການແປ</a></li>
+              <li><a href="#">ລາຄາ ແລະ ເວລາ</a></li>
+              <li><a href="#">ເທີນງານ</a></li>
+          </ul>
+      </div>
+      <div class="footer-section">
+          <h3>ຕິດຕາມຜົນງານ</h3>
+          <form class="subscribe-form">
+              <input type="email" placeholder="ໃສ່ອີເມວຂອງທ່ານ" required>
+              <button type="submit">ຕິດຕາມ</button>
+          </form>
+      </div>
+  </div>
+ 
+</footer>
+<div class="footer-bottom">
+  <p>© 2025 ສະຫງວນລິຂະສິດໂດຍ ບໍລິສັດເທັກອາດ ແປພາສາຕ່າງປະເທດ ຈຳກັດຜູ້ດຽວ</p>
+</div>
+</body>
+</html>
