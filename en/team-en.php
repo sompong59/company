@@ -5,9 +5,9 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="shortcut icon" href="css/logo.jpeg" type="logo">
-    <link rel="stylesheet" href="css/team.css">
-    <link rel="stylesheet" href="css/social-buttons.css">
+    <link rel="shortcut icon" href="../img/logo.jpeg" type="logo">
+    <link rel="stylesheet" href="../css/team.css">
+    <link rel="stylesheet" href="../css/social-buttons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
 
 </head>
@@ -20,7 +20,7 @@
     </div>
     <div class="team-container">
         <div class="team-member">
-            <img src="img/t1.png" alt="Mr. Sonphet Chitthavong">
+            <img src="../img/t1.png" alt="Mr. Sonphet Chitthavong">
             <h3>Mr. Sonphet Chitthavong</h3>
             <p>CEO Director</p>
             <p>Master's Degree in Business Administration</p>
@@ -33,7 +33,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t2.png" alt="Ms. Pinthong Soukphaly">
+            <img src="../img/t2.png" alt="Ms. Pinthong Soukphaly">
             <h3>Ms. Pinthong Soukphaly</h3>
             <p>Manager</p>
             <p>Bachelor's Degree in ICT</p>
@@ -46,7 +46,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t3.png" alt="Mr. Aloun Nakhamhoung">
+            <img src="../img/t3.png" alt="Mr. Aloun Nakhamhoung">
             <h3>Mr. Aloun Nakhamhoung</h3>
             <p>Expert in Legal and Contractual Matters (French)</p>
             <p>Master's Degree in Law and International Relations</p>
@@ -59,7 +59,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t4.png" alt="Mr. Chittava Madmanisone">
+            <img src="../img/t4.png" alt="Mr. Chittava Madmanisone">
             <h3>Mr. Chittava Madmanisone</h3>
             <p>Expert in Legal and Contractual Matters (English)</p>
             <p>Master's Degree in Business Administration (English)</p>
@@ -72,7 +72,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t5.png" alt="Mr. Boukham">
+            <img src="../img/t5.png" alt="Mr. Boukham">
             <h3>Mr. Boukham</h3>
             <p>Vietnamese Language Expert</p>
             <p>Master's Degree in Vietnamese Literature</p>
@@ -85,7 +85,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t6.png" alt="Mr. Bouaphan Yajongtor">
+            <img src="../img/t6.png" alt="Mr. Bouaphan Yajongtor">
             <h3>Mr. Bouaphan Yajongtor</h3>
             <p>Chinese Language Expert</p>
             <p>Master's Degree in Chinese Literature</p>
@@ -98,7 +98,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t7.png" alt="Mr. Thitsanou Xailengsavath">
+            <img src="../img/t7.png" alt="Mr. Thitsanou Xailengsavath">
             <h3>Mr. Thitsanou Xailengsavath</h3>
             <p>Expert in Legal and Contractual Matters (Chinese)</p>
             <p>Master's Degree in Political Science and International Relations (China)</p>
@@ -111,7 +111,7 @@
             </div>
         </div>
         <div class="team-member">
-            <img src="img/t8.png" alt="Ms. Lamthian Khutphilavanh">
+            <img src="../img/t8.png" alt="Ms. Lamthian Khutphilavanh">
             <h3>Ms. Lamthian Khutphilavanh</h3>
             <p>Chinese Language Expert</p>
             <p>Master's Degree in Economics and Finance</p>

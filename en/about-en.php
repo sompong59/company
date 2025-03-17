@@ -1,6 +1,6 @@
 <?php $pageTitle = "About Us"; ?>
 <!DOCTYPE html>
-<html lang="la">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -57,5 +57,6 @@
         </div>
     </section>
     <?php include 'footer-en.html';?>
+   
 </body>
 </html>

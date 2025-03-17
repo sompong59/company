@@ -1,6 +1,6 @@
 <?php $pageTitle = "Types of Services"; ?>
 <!DOCTYPE html>
-<html lang="la">
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -92,31 +92,31 @@
     <h2>Supports Multiple Language Translations</h2>
     <div class="language-container">
         <a href="lao.html" class="language-item">
-            <img src="img/Lao.png" alt="Lao Flag">
+            <img src="../img/Lao.png" alt="Lao Flag">
             <span>Lao</span>
         </a>
         <a href="thai.html" class="language-item">
-            <img src="img/Thai.png" alt="Thai Flag">
+            <img src="../img/Thai.png" alt="Thai Flag">
             <span>Thai</span>
         </a>
         <a href="english.html" class="language-item">
-            <img src="img/english.png" alt="English Flag">
+            <img src="../img/english.png" alt="English Flag">
             <span>English</span>
         </a>
         <a href="russian.html" class="language-item">
-            <img src="img/russia.png" alt="Russian Flag">
+            <img src="../img/russia.png" alt="Russian Flag">
             <span>Russian</span>
         </a>
         <a href="chinese.html" class="language-item">
-            <img src="img/chaina.png" alt="Chinese Flag">
+            <img src="../img/chaina.png" alt="Chinese Flag">
             <span>Chinese</span>
         </a>
         <a href="vietnamese.html" class="language-item">
-            <img src="img/vietnam.png" alt="Vietnamese Flag">
+            <img src="../img/vietnam.png" alt="Vietnamese Flag">
             <span>Vietnamese</span>
         </a>
         <a href="french.html" class="language-item">
-            <img src="img/franc.png" alt="French Flag">
+            <img src="../img/franc.png" alt="French Flag">
             <span>French</span>
         </a>
     </div>
