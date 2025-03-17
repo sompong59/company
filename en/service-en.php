@@ -1,4 +1,4 @@
-<?php $pageTitle = "ປະເພດການບໍລິການ"; ?>
+<?php $pageTitle = "Types of Services"; ?>
 <!DOCTYPE html>
 <html lang="la">
 <head>
