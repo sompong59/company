@@ -77,9 +77,18 @@ body {
     color: #ffffff;
     font-weight: 500;
 }
-
+.nav ul li a.active { /* ເພີ່ມແບບປັບແຕ່ງສຳລັບເມນູທີ່ເລືອກ */
+    color: #ff9800; /* ຫຼືສີທີ່ທ່ານຕ້ອງການ */
+    border: 2px solid  #ff9800;
+    border-left: none;
+    border-right: none;
+   
+}
 .nav ul li a:hover {
-    color: #007bff;
+    color: #ffffff; /* ຫຼືສີທີ່ທ່ານຕ້ອງການ */
+    border: 2px solid  #ffffff;
+    border-left: none;
+    border-right: none;
 }
 
 /* ປ່ຽນ .button .request-quote ເປັນ .site-action-button .site-action-request-quote */
@@ -271,46 +280,86 @@ body {
     </header>
     <script>
        
-    const menuToggle = document.querySelector('.menu-toggle');
-    const nav = document.querySelector('.nav');
+       const menuToggle = document.querySelector('.menu-toggle');
+const nav = document.querySelector('.nav');
+const menuLinks = document.querySelectorAll('.nav ul li a');
+const requestQuoteLink = document.querySelector('.site-action-request-quote');
 
-    menuToggle.addEventListener('click', () => {
-        nav.classList.toggle('active');
-        menuToggle.classList.toggle('active');
-    });
+menuToggle.addEventListener('click', () => {
+    nav.classList.toggle('active');
+    menuToggle.classList.toggle('active');
+});
 
-    const languageButton = document.querySelector('.site-action-language-button');
-    let currentLang = localStorage.getItem('lang') || 'la';
+const languageButton = document.querySelector('.site-action-language-button');
+let currentLang = localStorage.getItem('lang') || 'la';
 
-    function updateLanguageButton() {
-        if (currentLang === 'en') {
-            languageButton.innerHTML = '<img src="img/english.png" alt="ພາສາອັງກິດ" class="site-action-flag-icon"><span class="site-action-language-text">English</span>';
-            languageButton.dataset.lang = 'en';
-        } else {
-            languageButton.innerHTML = '<img src="img/lao.png" alt="ພາສາລາວ" class="site-action-flag-icon"><span class="site-action-language-text">ລາວ</span>';
-            languageButton.dataset.lang = 'la';
-        }
+function updateLanguageButton() {
+    if (currentLang === 'en') {
+        languageButton.innerHTML = '<img src="img/english.png" alt="ພາສາອັງກິດ" class="site-action-flag-icon"><span class="site-action-language-text">English</span>';
+        languageButton.dataset.lang = 'en';
+    } else {
+        languageButton.innerHTML = '<img src="img/lao.png" alt="ພາສາລາວ" class="site-action-flag-icon"><span class="site-action-language-text">ລາວ</span>';
+        languageButton.dataset.lang = 'la';
     }
+}
 
+updateLanguageButton();
+
+languageButton.addEventListener('click', function() {
+    currentLang = currentLang === 'la' ? 'en' : 'la';
+    localStorage.setItem('lang', currentLang);
     updateLanguageButton();
 
-    languageButton.addEventListener('click', function() {
-        currentLang = currentLang === 'la' ? 'en' : 'la';
-        localStorage.setItem('lang', currentLang);
-        updateLanguageButton();
+    let newUrl = '';
+    if (currentLang === 'la') {
+        newUrl = 'index.php';
+    } else {
+        newUrl = 'en/index-en.php';
+    }
 
-        let newUrl = '';
-        if (currentLang === 'la') {
-            newUrl = 'index.php'; // URL ພາສາລາວ
-        } else {
-            newUrl = 'en/index-en.php'; // URL ພາສາອັງກິດ
-        }
+    if (window.location.pathname !== newUrl) {
+        window.location.href = newUrl;
+    }
+});
 
-        // ກວດສອບ URL ປັດຈຸບັນກ່ອນທີ່ຈະປ່ຽນ
-        if (window.location.pathname !== newUrl) {
-            window.location.href = newUrl;
-        }
+function setActiveMenu() {
+    const currentPage = window.location.pathname.split('/').pop();
+    const activeMenu = localStorage.getItem('activeMenu');
+
+    if (activeMenu) {
+        menuLinks.forEach(link => {
+            if (link.getAttribute('href').split('/').pop() === activeMenu) {
+                link.classList.add('active');
+            }
+        });
+    } else {
+        menuLinks.forEach(link => {
+            if (link.getAttribute('href').split('/').pop() === currentPage) {
+                link.classList.add('active');
+            }
+        });
+    }
+
+    // ກວດສອບວ່າໜ້າປັດຈຸບັນແມ່ນ sendfrom.php ບໍ
+    if (currentPage === 'sendfrom.php') {
+        // ຖ້າແມ່ນ, ເອົາ class active ອອກຈາກລິ້ງເມນູທັງໝົດ
+        menuLinks.forEach(link => {
+            link.classList.remove('active');
+        });
+    }
+}
+
+setActiveMenu();
+
+menuLinks.forEach(link => {
+    link.addEventListener('click', (e) => {
+        menuLinks.forEach(otherLink => {
+            otherLink.classList.remove('active');
+        });
+        link.classList.add('active');
+        localStorage.setItem('activeMenu', link.getAttribute('href').split('/').pop());
     });
+});
     
 
 </script>
