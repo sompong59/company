@@ -19,10 +19,14 @@
         <h1>Our Company <span>Team</span></h1>
     </div>
     <div class="team-container">
-        <div class="team-member">
+            <div class="team-member">
+    <div class="team-member-inner">
+        <div class="team-member-front">
             <img src="../img/t1.png" alt="Mr. Sonphet Chitthavong">
             <h3>Mr. Sonphet Chitthavong</h3>
             <p>CEO Director</p>
+        </div>
+        <div class="team-member-back">
             <p>Master's Degree in Business Administration</p>
             <div class="team-member-social-icons">
                 <a href="#" class="fab fa-facebook-f"></a>
@@ -32,6 +36,8 @@
                 <a href="#" class="fab fa-youtube"></a>
             </div>
         </div>
+    </div>
+</div>
         <div class="team-member">
             <img src="../img/t2.png" alt="Ms. Pinthong Soukphaly">
             <h3>Ms. Pinthong Soukphaly</h3>

@@ -129,5 +129,12 @@
 </div>
 </div> 
 <?php include 'footer.html';?>
+
+<script>
+function toggleFlip(element) {
+    console.log(element); // ກວດສອບ element
+    element.classList.toggle('flipped');
+}
+        </script>
 </body>
 </html>

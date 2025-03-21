@@ -288,7 +288,7 @@
             <img src="../img/10.png" alt="ANOUSITH EXPRESS">
         </div>
         <div class="my-customer-item">
-            <img src="img/11.png" alt="Thanaleng Dry Port">
+            <img src="../img/11.png" alt="Thanaleng Dry Port">
         </div>
         <div class="my-customer-item">
             <img src="../img/12.png" alt="BURAPHA AGRO-FORESTRY">

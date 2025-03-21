@@ -1,0 +1,111 @@
+.container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 1%;
+    padding: 1%;
+    background-color: #283593;
+}
+
+.box {
+    position: relative;
+    width: 100%;
+    height: 0;
+    padding-bottom: 150%;
+    perspective: 1000px;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.front, .back {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    backface-visibility: hidden;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    transition: transform 0.5s;
+    border-radius: 10px;
+    box-shadow: 0 0.2vw 0.4vw rgba(0, 0, 0, 0.1);
+    background-color: #002b64;
+    color: white;
+}
+
+.front img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 5px solid white;
+}
+
+.front h2 {
+    font-size: 1.2em;
+    margin-top: 20px;
+    text-align: center;
+    color: aqua;
+}
+
+.back p {
+    font-size: 1em;
+    padding: 10px;
+    text-align: center;
+}
+
+.back {
+    transform: rotateY(180deg);
+}
+
+.box.flipped .front {
+    transform: rotateY(180deg);
+}
+
+.box.flipped .back {
+    transform: rotateY(360deg);
+}
+
+@media (max-width: 1024px) {
+    .container {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 768px) {
+    .container {
+        grid-template-columns: repeat(2, 1fr);
+    }
+    .box {
+        padding-bottom: 200%;
+    }
+}
+
+@media (max-width: 480px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box {
+        padding-bottom: 300%;
+    }
+}
+
+/* ແກ້ໄຂ media query ສຳລັບໜ້າຈໍນ້ອຍສຸດ */
+@media (max-width: 380px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box {
+        padding-bottom: 350%;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        grid-template-columns: repeat(1, 1fr);
+    }
+    .box {
+        padding-bottom: 400%;
+    }
+}
