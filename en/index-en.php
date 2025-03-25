@@ -253,7 +253,7 @@
 </div>
 <div class="my-container">
     <div class="my-header">
-        <h1>Trusted Customers</h1>
+        <h1>Core Customers</h1>
         <div class="my-orange-bar"></div>
     </div>
     <div class="my-customer-grid">

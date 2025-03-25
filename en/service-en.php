@@ -33,7 +33,7 @@
                 <li><i class="fas fa-check-circle"></i> Any documents that need translation</li>
        
             </ul>
-            <button class="quote-button">Get a Free Quote</button>
+            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Certification </h2>
@@ -50,7 +50,7 @@
                 <li><i class="fas fa-check-circle"></i> Birth Certificate</li>
                 <li><i class="fas fa-check-circle"></i> Criminal Record</li>
             </ul>
-            <button class="quote-button">Get a Free Quote</button>
+            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Legal documents</h2>
@@ -68,7 +68,7 @@
                 <li><i class="fas fa-check-circle"></i> Contractor Contract</li>
                 <li><i class="fas fa-check-circle"></i> Project development Agreement (PDA)</li>
             </ul>
-            <button class="quote-button">Get a Free Quote</button>
+            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Certification</h2>
@@ -81,7 +81,8 @@
                 <li><i class="fas fa-check-circle"></i> Visa Application Form in domestic and Aboard</li>
            
             </ul>
-            <button class="quote-button">Get a Free Quote</button>
+            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
+            
         </div>
        
     

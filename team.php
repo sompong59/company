@@ -15,126 +15,276 @@
     <?php include 'header.html';?>
    
     <div class="team-body">
-    <div class="team-header">
-        <h1>ທີມງານ <span>ບໍລິສັດ</span></h1>
-    </div>
+        <div class="team-header">
+            <h1>ທີມງານ ບໍລິສັດ <span>ເທັກອາດ</span></h1>
+            <p>ກົດຮູບພາບເພື່ອເບິ່ງຂໍ້ມູນເພີມເຕີມ</p>
+        </div>
+
     <div class="team-container">
         <div class="team-member">
-            <img src="img/t1.png" alt="ທ່ານ ສອນເພັດ ຈິດຕະວົງ">
-            <h3>ທ່ານ ສອນເພັດ ຈິດຕະວົງ</h3>
-            <p>ຜູ້ອຳນວຍການ CEO</p>
-            <p>ປທ ສາຂາ ບໍລິຫານທຸລະກິດ</p>
-            <div class="team-member-social-icons">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
-        </div>
-        </div>
-        <div class="team-member">
-            <img src="img/t2.png" alt="ນາງ ປິ່ນທອງ ສຸກຜາລີ">
-            <h3>ນາງ ປິ່ນທອງ ສຸກຜາລີ</h3>
-            <p>ຜູ້ຈັດການ</p>
-            <p>ປຕ ສາຂາ ໄອຊີທີ</p>
-            <div class="team-member-social-icons">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
+            <div class="team-member-inner">
+                <div class="team-member-front">
+                    <img src="img/t1.png" alt="Mr. Sonphet Chitthavong">
+                    <h3>ທ່ານ ສອນເພັດ ຈິດຕະວົງ</h3>            
+                    <p> ອຳນວຍການ " CEO "</p>
+                    <div class="team-member-social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-whatsapp"></a>
+                        <a href="#" class="far fa-envelope"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-youtube"></a>
+                    </div>
+                </div>
+                <div class="team-member-back">
+                    <ul>
+                        <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                        <li>                           
+                            <p>ອຳນວຍການບໍລິສັດເທັກອາດ</p>
+        
+                        </li>
+                    </ul>
+                   
+                </div>
             </div>
         </div>
-        <div class="team-member">
-            <img src="img/t3.png" alt="ທ່ານ ອາລຸນ ນາຄຳຮຸ່ງ">
-            <h3>ທ່ານ ອາລຸນ ນາຄຳຮຸ່ງ</h3>
-            <p>ຜູ້ຊ່ຽວຊານ ດ້ານນິຕິກຳ ແລະສັນຍາ ພາສາຝຣັ່ງ</p>
-            <p>ປທ ສາຂາ ນິຕິກຳ ແລະ ພົວພັນສາກົນ</p>
-            <div class="team-member-social-icons">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t2.png" alt="Ms. Pinthong SOUKPHALEE">
+                <h3>ນາງ ປິ່ນທອງ ສຸກຜາລີ</h3>
+                <p>" ຜູ້ຈັດການ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li> ຜູ້ຈັດການ </li>
+                    <!-- <li>Expertise: 10 years</li>
+                    <li>Master's Degree</li>
+                    <li>Major: Human Resource and Business Management</li>
+                    <li>Trading, Project and Investment, Hydro Power an</li> -->
+                   
+                </ul>
+                
             </div>
         </div>
-        <div class="team-member">
-            <img src="img/t4.png" alt="ທ່ານ ຈິດຕະວາ ມາດມະນີສອນ">
-            <h3>ທ່ານ ຈິດຕະວາ ມາດມະນີສອນ</h3>
-            <p>ຜູ້ຊ່ຽວຊານ ດ້ານນິຕິກຳ ແລະສັນຍາ ພາສາອັງກິດ</p>
-            <p>ປທ ສາຂາ ບໍລິຫານທຸລະກິດ ພາສາອັງກິດ</p>
-            <div class="team-member-social-icons">
-            <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
+    </div>
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t3.png" alt="Mr. Alounna KHAMHOUNG">
+                <h3>ທ່ານ ອາລຸນນາ ຄຳຮຸ່ງ</h3>
+                <p>ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ, ຟຣັ່ງ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ </h4>
+                      <li>ຜູ້ຊ່ຽວຊານ: ລາວ, ຝຣັ່ງ</li>
+                      <li>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</li>
+                      <li>ປະລິນຍາເອກ</li>
+                      <li>ສາຂາຮຽນ: ການພົວພັນສາກົນ ແລະ ກົດໝາຍລະຫວ່າງປະເທດ </li>
+                      <li>ຂະແໜງການ:ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ-ການລົງທຶນ,  ແລະ ເອກະສານທົ່ວໄປ </li>
+                    </ul>
+                   
+               
+               
             </div>
         </div>
-    
-    <div class="team-member">
-        <img src="img/t5.png" alt="ທ່ານ ບົວຄຳ">
-        <h3>ທ່ານ ບົວຄຳ</h3>
-        <p>ຜູ້ຊ່ຽວຊານ ພາສາຫວຽດນາມ</p>
-        <p>ປທ ສາຂາ ອັກສອນສາດ ພາສາຫວຽດນາມ</p>
-        <div class="team-member-social-icons">
-        <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
-        </div>
     </div>
-    
     <div class="team-member">
-        <img src="img/t6.png" alt="ທ່ານ ບົວພັນ ຢາຈົ່ງຕໍ່">
-        <h3>ທ່ານ ບົວພັນ ຢາຈົ່ງຕໍ່</h3>
-        <p>ຜູ້ຊ່ຽວຊານ ພາສາຈີນ</p>
-        <p>ປທ ສາຂາ ອັກສອນສາດ ພາສາຈີນ</p>
-        <div class="team-member-social-icons">
-        <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
-        </div>
-    </div>
-    
-    <div class="team-member">
-        <img src="img/t7.png" alt="ທ່ານ ທິດສະນຸ ໄຊເລັ່ງສະຫວັດ">
-        <h3>ທ່ານ ທິດສະນຸໄຊ ເລັ່ງສະຫວັດ</h3>
-        <p>ຜູ້ຊ່ຽວຊານ ດ້ານນິຕິກຳ ແລະສັນຍາ ພາສາຈີນ</p>
-        <p>ປທ ສາຂາ ລັດຖະສາດ ແລະ ພົວພັນສາກົນ ສປ ຈີນ</p>
-        <div class="team-member-social-icons">
-        <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t4.png" alt="Mr. Chattava MATMANISONE">
+                <h3>ທ່ານ ຈັດຕະວາ ມາດມະນີສອນ</h3>
+                <p>ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ອັງກິດ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ອັງກິດ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ພັດທະນາຊັບພະຍາກອນມະນຸດ ແລະ ບໍລິຫານທຸລະກິດ </li>
+                    <li>ຂະແໜງການ: ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ, ການລົງທຶນ, ໂຄງການພັດທະນາ, ເຂື່ອນໄຟຟ້າ ແລະ ເອກະສານທົ່ວໄປ</li>
+                   
+                </ul>
+               
+            </div>
         </div>
     </div>
     <div class="team-member">
-        <img src="img/t8.png" alt="ທ່ານ ທິດສະນຸ ໄຊເລັ່ງສະຫວັດ">
-        <h3>ນາງ ລຳທຽນ ຄຸດພິລາວັນ</h3>
-        <p>ຜູ້ຊ່ຽວຊານ ດ້ານພາສາຈີນ</p>
-        <p>ປທ ສາຂາ ເສດຖະສາດ ແລະ ການເງິນ</p>
-        <div class="team-member-social-icons">
-        <a href="#" class="fab fa-facebook-f"></a>
-            <a href="#" class="fab fa-whatsapp"></a>
-            <a href="#" class="far fa-envelope"></a>
-            <a href="#" class="fab fa-twitter"></a>
-            <a href="#" class="fab fa-youtube"></a>
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t5.png" alt="Mr. Bouphanh YACHONGTOU">
+                <h3>ທ່ານ ບົວຄໍາ ແກ້ວມີໄຊ</h3>
+                <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ຫວຽດນາມ"</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຫວຽດນາມ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ບໍລິຫານການສຶກສາ </li>
+                    <li>ຂະແໜງການ: ສຶກສາ, ສາທາ, ກະສິກຳ, ກົດໝາຍ, ສິ່ງແວດລ້ອມ</li>
+                   
+                </ul>
+               
+            </div>
         </div>
     </div>
-</div>
-</div> 
-<?php include 'footer.html';?>
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t6.png" alt="Mr. Bouphanh YACHONGTOU">
+                <h3>ທ່ານ ບົວພັນ ຢ່າຈົ່ງຕູ່</h3>
+                <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ຈີນ"</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 5 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ການບໍລິການເສດຖະກິດ,ອັກສອນສາດພາສາຈີນ </li>
+                    <li>ຂະແໜງການ: ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ-ການລົງທຶນ,  ແລະ ເອກະສານທົ່ວໄປ</li>
+                   
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t7.png" alt="Mr. Thittanouxay LENGSAWATH">
+                <h3>ທ່ານ ທິດທະນູໄຊ ເລັ່ງສະຫວັດ</h3>
+                <p>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ການພົວພັນສາກົນ ແລະ ກົດໝາຍລະຫວ່າງປະເທດ </li>
+                    <li>ຂະແໜງການ: ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ-ການລົງທຶນ,  ແລະ ເອກະສານທົ່ວໄປ</li>
+                   
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+ 
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t8.png" alt="Ms. Lamtiane KHOUTPHILAVANH">
+                <h3>ທ່ານ ນາງ ລຳທຽນ ຄຸດພິລາວັນ</h3>
+                <p> ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ການບໍລິການເສດຖະກິດ, ການເງິນ ແລະ ການຄ້າ </li>
+                    <li>ຂະແໜງການ: ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ, ການລົງທຶນ, ໂຄງການພັດທະນາ, ເຂື່ອນໄຟຟ້າ ແລະ ເອກະສານທົ່ວໄປ</li>
+                   
+                </ul>
+               
+            </div>
+        </div>
+    </div>
+    <div class="team-member">
+        <div class="team-member-inner">
+            <div class="team-member-front">
+                <img src="img/t9.png" alt="Mr. Khamla SAE-EUNG">
+                <h3>ທ້າວ ຄຳຫຼ້າ ແຊ່ອື້ງ</h3>
+                <p> ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ອັງກິດ-ໄທ "</p>
+                <div class="team-member-social-icons">
+                    <a href="#" class="fab fa-facebook-f"></a>
+                    <a href="#" class="fab fa-whatsapp"></a>
+                    <a href="#" class="far fa-envelope"></a>
+                    <a href="#" class="fab fa-twitter"></a>
+                    <a href="#" class="fab fa-youtube"></a>
+                </div>
+            </div>
+            <div class="team-member-back">
+                <ul>
+                    <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
+                    <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ອັງກິດ-ໄທ " </li>
+                    <li>ປະສົບການແປ: ຫຼາຍກວ່າ 20 ປີ</li>
+                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ສາຂາຮຽນ: ບໍລິຫານການສຶກສາ </li>
+                    <li>ຂະແໜງການ: ສຶກສາ, ສາທາ, ກະສິກຳ, ກົດໝາຍ, ສິ່ງແວດລ້ອມ</li>
+                   
+                </ul>
+               
+            </div>
+        </div>
+    </div>
 
-<script>
-function toggleFlip(element) {
-    console.log(element); // ກວດສອບ element
-    element.classList.toggle('flipped');
-}
-        </script>
+</div>
+</div>
+<?php include 'footer.html';?>
+    <script>
+        const teamMembers = document.querySelectorAll('.team-member');
+
+teamMembers.forEach(member => {
+    member.addEventListener('click', () => {
+        member.querySelector('.team-member-inner').classList.toggle('flipped');
+    });
+});
+    </script>
 </body>
 </html>
