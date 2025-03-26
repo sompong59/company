@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
+
+body {
+    font-family: "Noto Sans Lao Looped", sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.content-contact h2 {
+    text-align: center;
+    color: #0051d3;
+    font-size: 2em;
+}
+
+.divider {
+    border-bottom: 1px solid rgb(0, 79, 176);
+    width: 90%;
+    margin: 20px auto;
+}
+
+.container {
+    display: flex;
+    width: 100%;
+    height: 100vh;
+}
+
+.map {
+    width: 50%;
+    height: auto;
+    padding: 30px;
+}
+
+.contact-info {
+    width: 50%;
+    padding: 30px;
+    box-sizing: border-box;
+}
+
+.contact-item {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 40px;
+}
+
+.icon-contact {
+    width: 70px;
+    height: 70px;
+    background-color: #0038bb;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    margin-right: 20px;
+    font-size: 2.5em;
+}
+
+.line-item {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.contact-item h3 {
+    margin: 0;
+    color: #008000;
+}
+
+.contact-item p {
+    margin: 5px 0;
+}
+
+/* Media Query ສຳລັບໜ້າຈໍຂະໜາດນ້ອຍກວ່າ 768px */
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column-reverse; /* ປ່ຽນລຳດັບ */
+    }
+
+    .map, .contact-info {
+        width: 100%;
+        padding: 20px;
+    }
+
+    .content-contact h2 {
+        font-size: 1.5em;
+    }
+
+    .contact-item {
+        margin-bottom: 20px;
+    }
+  /* ເພີ່ມໄລຍະຫ່າງເທິງ */
+  .contact-info {
+    margin-top: 100px; /* ປັບຄ່າຕາມຄວາມເໝາະສົມ */
+    position: relative; /* ເພີ່ມ position */
+    z-index: 1; /* ເພີ່ມ z-index */
+}
+
+.content-contact h2 {
+    position: relative; /* ເພີ່ມ position */
+    z-index: 2; /* ເພີ່ມ z-index */
+}
+}

@@ -13,7 +13,7 @@
 </head>
 <body>
 <?php include 'header.html';?>
-    <div class="div">
+<div class="div">
 <h2>ຂັ້ນຕອນການດຳເນີນການແປເອກະສານ</h2>
 <p class="pralagrap3">ຂັ້ນຕອນການດຳເນີນການແປເອກະສານ ແມ່ນມີ 4 ຂັ້ນຕອນ ລາຍລະອຽດດັງນີ້:</p>
 </div>   
@@ -29,21 +29,21 @@
             <span class="card-number">2</span>
             <img src="img/22.png" alt="Image 2" class="card-img-top">
             <div class="card-body">
-                <p class="card-text"><strong>ການປະເມີນລາຄາ:</strong><br> ລູກຄ້າສົ່ງເອກະສານໃຫ້ບໍລິສັດກວດກາເອກະສານ, ປະເມີນລາຄາແປ ແລະ ກຳນົດເວລາສຳເລັດທີ່ແນນອນ ແລະ ມັດຈຳ 30% ກ່ອນຕົກລົງແປ.</p>
+                <p class="card-text"><strong>ການປະເມີນລາຄາ:</strong><br> ລູກຄ້າສົ່ງເອກະສານໃຫ້ ບໍລິສັດ ກວດກາ, ປະເມີນລາຄາແປ ແລະ ກຳນົດເວລາແປ ສຳເລັດທີ່ແນ່ນອນ ແລະ ລູກຄ້າຕ້ອງຈ່າຍເງິນມັດຈ້ຳຂັ້ນຕ່ຳ 70% ກ່ອນຕົກລົງດຳເນີນການແປ.</p>
             </div>
         </div>
         <div class="card">
             <span class="card-number">3</span>
             <img src="img/33.png" alt="Image 3" class="card-img-top">
             <div class="card-body">
-                <p class="card-text"><strong>ການຢັ້ງຢືນຄວາມຖືກຕ້ອງ:</strong><br> ພາຍຫຼັງບໍລິສັດດຳເນີນການແປເອກະສານລູກຄ້າສຳເລັດແມ່ນສົ່ງໃຫ້ລູກຄ້າກວດກາຄືນເພື່ອຢັ້ງຢືນບາງຈຸດທີ່ຍັງບໍ່ທັນຊັດເຈນໃຫ້ຖືກຕ້ອງສົມບູນ ແລະ ນຳໃຊ້ໄດ້ 100%.</p>
+                <p class="card-text"><strong>ການຢັ້ງຢືນຄວາມຖືກຕ້ອງ:</strong><br> ພາຍຫຼັງບໍລິສັດດຳເນີນການແປເອກະສານລູກຄ້າສຳເລັດແລ້ວຈະສົ່ງໃຫ້ລູກຄ້າກວດກາຂໍ້ມູນຄືນເພື່ອຢັ້ງຢືນບາງຈຸດທີ່ຍັງບໍ່ທັນຊັດເຈນໃຫ້ຖືກຕ້ອງສົມບູນ ແລະ ນຳໃຊ້ໄດ້ 100% ພ້ອມທັງຈ້ຳກາຢັ້ງຢືນການແປຈາກບໍລິສັດຂອງພວກເຮົາ.</p>
             </div>
         </div>
         <div class="card">
             <span class="card-number">4</span>
             <img src="img/44.png" alt="Image 4" class="card-img-top">
             <div class="card-body">
-                <p class="card-text"><strong>ການມອບຮັບເອກະສານ:</strong><br> ກ່ອນມອບຮັບ ຫຼື ສົ່ງເອກະສານໃຫ້ລູກຄ້າແມ່ນລູກຄ້າຕ້ອງຈ່າຍເງິນສ່ວນທີ່ເຫຼືອ 70% ກ່ອນຮັບເອກະສານ ການແປທີຖືກຕ້ອງຈາກບໍລິສັດ.</p>
+                <p class="card-text"><strong>ການມອບຮັບເອກະສານ:</strong><br> ກ່ອນສົ່ງມອບເອກະສານແປສະບັບຈ້ຳກາຢັ້ງຢື່ນການແປໃຫ້ລູກຄ້າ ແມ່ນລູກຄ້າຈະຕ້ອງຈ່າຍເງິນສ່ວນທີ່ເຫຼືອ 30% ກ່ອນຮັບເອກະສານສະບັບແປທີຖືກຕ້ອງ ພ້ອມທັງໄຟລສະແກນ ຈາກບໍລິສັດ.</p>
             </div>
         </div>
     </div>
@@ -80,6 +80,7 @@
             <button class="carousel-next">&#10095;</button>
         </div>
     </div>
+
     <?php include 'footer.html';?>
     <script src="script.js"></script>
 </body>
