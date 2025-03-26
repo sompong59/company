@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="shortcut icon" href="css/logo.jpeg" type="logo">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="logo">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="css/social-buttons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -26,39 +26,39 @@
                 <div class="icon-contact"><i class="fas fa-mobile-alt"></i></div>
                 <div>
                     <h3>ໂທຫາພວກເຮົາ</h3>
-                    <p>ພະນັກງານຂອງພວກເຮົາເວົ້າໄດ້ທັງພາສາໄທ ແລະພາສາອັງກິດ</p>
-                    <p>+66 (0) 20 144 656</p>
-                    <p>+66 (0) 20 049 246</p>
+                    <p>ພະນັກງານຂອງພວກເຮົາເວົ້າໄດ້ທັງພາສາລາວ ແລະ ພາສາອັງກິດ</p>
+                    <p>020 5277 4279</p>
+                    <p>020 5251 9665</p>
                 </div>
             </div>
             <div class="contact-item">
                 <div class="icon-contact"><i class="fas fa-map-marker-alt"></i></div>
                 <div>
-                    <h3>ໂທຫາພວກເຮົາ</h3>
-                    <p>ພະນັກງານຂອງພວກເຮົາເວົ້າໄດ້ທັງພາສາໄທ ແລະພາສາອັງກິດ</p>
-                    <p>+66 (0) 20 144 656</p>
-                    <p>+66 (0) 20 049 246</p>
+                    <h3>ສຳນັກງານຂອງພວກເຮົາ</h3>
+                    <p>ບ້ານ ໂພນສະຫວ່າງ, ຮ່ອມ 11 ເມືອງ ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</p>
+    
                 </div>
             </div>
             <div class="contact-item">
                 <div class="icon-contact"><i class="fas fa-envelope"></i></div>
                 <div>
                     <h3>ສົ່ງອີເມວເຖິງພວກເຮົາ</h3>
-                    <p>support@sawadeetranslations.com</p>
+                    <p>techart.translation@gmail.com</p>
                 </div>
             </div>
             <div class="contact-item">
-                <div class="icon-contact"><i class="fab fa-line"></i></div>
+                <div class="icon-contact"><i class="fab fa-facebook-messenger"></i></div>
                 <div>
-                    <h3>LINE</h3>
-                    <p>@sawadeetranslations</p>
+                    <h3>Messenger</h3>
+                    <p>ບໍລິສັດ ເທັກອາດ ບໍລິການແປພາສາຕ່າງປະເທດ</p>
                 </div>
             </div>
             <div class="contact-item">
                 <div class="icon-contact"><i class="fab fa-whatsapp"></i></div>
                 <div>
                     <h3>WhatsApp</h3>
-                    <p>+66 (0) 82 635 4417</p>
+                    <p>020 5277 4279</p>
+                    <p>020 5251 9665</p>
                 </div>
             </div>
         </div>

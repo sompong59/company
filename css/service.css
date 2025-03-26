@@ -106,10 +106,7 @@ body {
 .quote-button:hover{
     background-color: #003c7c;
 }
-h2{
-    color: red;
-    background-color: #570202;
-}
+
 
 @media (max-width: 768px) {
     .service-card,.translate-top-section {

@@ -42,7 +42,7 @@ body {
     margin-bottom: 40px;
 }
 
-.icon-contact {
+.icon-contact{
     width: 70px;
     height: 70px;
     background-color: #0038bb;
@@ -53,6 +53,13 @@ body {
     border-radius: 50%;
     margin-right: 20px;
     font-size: 2.5em;
+    transition: transform 0.3s ease; /* ເພີ່ມ transition */
+
+}
+
+.icon-contact:hover {
+    transform: translateY(-5px);
+    background-color: #008000;
 }
 
 .line-item {
@@ -73,12 +80,20 @@ body {
 /* Media Query ສຳລັບໜ້າຈໍຂະໜາດນ້ອຍກວ່າ 768px */
 @media (max-width: 768px) {
     .container {
-        flex-direction: column-reverse; /* ປ່ຽນລຳດັບ */
+        flex-direction: column-reverse;
+        height: auto;
     }
-
-    .map, .contact-info {
+    .map iframe {
         width: 100%;
-        padding: 20px;
+        height: 400px;
+      
+    }
+   
+
+    .map,
+    .contact-info {
+        width: 100%;
+        padding: 15px; /* ຫຼຸດ padding */
     }
 
     .content-contact h2 {
@@ -86,17 +101,18 @@ body {
     }
 
     .contact-item {
-        margin-bottom: 20px;
+        margin-bottom: 20px; /* ຫຼຸດ margin-bottom */
     }
-  /* ເພີ່ມໄລຍະຫ່າງເທິງ */
-  .contact-info {
-    margin-top: 100px; /* ປັບຄ່າຕາມຄວາມເໝາະສົມ */
-    position: relative; /* ເພີ່ມ position */
-    z-index: 1; /* ເພີ່ມ z-index */
-}
 
-.content-contact h2 {
-    position: relative; /* ເພີ່ມ position */
-    z-index: 2; /* ເພີ່ມ z-index */
-}
+    .contact-info {
+        padding-top: 20px;
+    }
+
+    .contact-item h3 {
+        font-size: 1em;
+    }
+
+    .contact-item p {
+        font-size: 0.8em;
+    }
 }
