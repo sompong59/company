@@ -71,14 +71,14 @@ if (isset($_POST['originalLanguage'])    &&
         $mail->CharSet = 'UTF-8';
         $mail->Body = "
             <div style='font-family: \"Noto Sans Lao\", sans-serif;'>
-                <h3>ສະບາຍດີບໍລິສັດ Techart ຂ້າພະເຈົ້າສົນໃຈບໍລິການແປພາສາ</h3>
+                <h3>ສະບາຍດີບໍລິສັດເທັກອາດຂ້າພະເຈົ້າສົນໃຈບໍລິການແປພາສາ</h3>
                 <p><strong>ພາສາຕົ້ນສະບັບ</strong>: $originalLanguage</p>
                 <p><strong>ພາສາເປົ້າໝາຍ</strong>: $targetLanguage</p>
-                <p><strong>ພາສາເປົ້າໝາຍ</strong>: $serviceType</p>
+                <p><strong>ປະເພດການແປ</strong>: $serviceType</p>
                 <p><strong>ຂ້າພະເຈົ້າຊື່</strong>: $name</p>
                 <p><strong>Email</strong>: $email</p>
                 <p><strong>ເບີໂທ</strong>: $phoneNamber</p>
-                <p><strong>ຫົວຂໍ້</strong>: $subject</p>
+                
                 <p><strong>ຂໍ້ຄວາມເພີ່ມເຕີມ</strong>: $text</p>
                 <h3>ເມືອທ່ານເຫັນຂໍ້ຄວາມນີ້ລົບກວນຕອບກັບຂ້າພະເຈົ້າດ້ວຍ</h3>
             </div>

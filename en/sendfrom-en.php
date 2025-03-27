@@ -13,12 +13,12 @@
     <?php include 'header-en.html';?>
 
     <div class="form-container">
-        <h2>Free Quote Request</h2>
+        <h2>Request a Free Quote</h2>
 
         <form action="../contact.php" method="POST" enctype="multipart/form-data" id="contactForm">
             <div class="language-selection">
                 <div class="input-group">
-                    <label>Select Original Language <span class="required">*</span></label>
+                    <label>Source Language <span class="required">*</span></label>
                     <select type="text" name="originalLanguage">
                         <option value="Lao">Lao</option>
                         <option value="English">English</option>
@@ -31,10 +31,10 @@
                     </select>
                 </div>
                 <div class="input-group">
-                    <label>Select Target Language <span class="required">*</span></label>
+                    <label>Target Language <span class="required">*</span></label>
                     <select type="text" name="targetLanguage">
-                        <option value="Lao">Lao</option>
                         <option value="English">English</option>
+                        <option value="Lao">Lao</option>
                         <option value="Chinese">Chinese</option>
                         <option value="Vietnamese">Vietnamese</option>
                         <option value="French">French</option>
@@ -53,18 +53,18 @@
                 </select>
             </div>
             <div class="input-group">
-                <label>Attach Your Files (Maximum 5 Files) <span class="required">*</span></label>
+                <label>Attach Your Files (max 5 files) <span class="required">*</span></label>
                 <div class="upload-area">
                     <input type="file" name="form_fields[]" multiple="multiple" data-maxsize="10" data-maxsize-message="This file exceeds the maximum allowed size.">
                 </div>
             </div>
             <div class="input-group">
-                <label>Enter Your Name <span class="required">*</span></label>
+                <label>Your Name <span class="required">*</span></label>
                 <input type="text" name="name" placeholder="Your Name" required>
             </div>
             <div class="language-column">
                 <div class="input-group">
-                    <label>Your Email Address <span class="required">*</span></label>
+                    <label>Your Email<span class="required">*</span></label>
                     <input type="email" name="email" placeholder="Email Address" required>
                 </div>
                 <div class="input-group">
@@ -80,7 +80,7 @@
                 <label for="message">Message</label>
                 <textarea name="text" rows="5" placeholder="Please specify your requirements, such as the purpose of the translation, etc."></textarea>
             </div>
-            <button class="submit-button" type="submit" id="submitButton">Submit</button>
+            <button class="submit-button" type="submit" id="submitButton">SEND INQUIRY</button>
             <div id="loadingIndicator" style="display: none;">Sending...</div>
         </form>
 
@@ -118,7 +118,7 @@
 
     try {
         const formData = new FormData(this);
-        const response = await fetch('contact.php', {
+        const response = await fetch('../contact.php', {
             method: 'POST',
             body: formData
         });

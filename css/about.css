@@ -64,28 +64,20 @@ body {
 
 }
 
-/* .btn-primary {
+.btn-primary {
     background-color: #09b100;
     color: white;
     padding: 12px 24px;
     border: none;
-    border-radius: 25px;
+    border-radius: 10px;
     cursor: pointer;
     text-decoration: none;
 }
 
 .btn-primary:hover {
     background-color: #00dd29;
-} */
-.button-contact{
-    background-color: #09b100;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 25px;
-    cursor: pointer;
-    text-decoration: none;
 }
+
 
 .text-center {
     text-align: left; /* ປ່ຽນເປັນຈັດຂໍ້ຄວາມຊ້າຍ */
