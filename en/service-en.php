@@ -29,11 +29,17 @@
             <ul>
                 <li><i class="fas fa-check-circle"></i> Identity Card</li>
                 <li><i class="fas fa-check-circle"></i> Family Registration Book</li>
+
+                <li><i class="fas fa-check-circle"></i> Passport</li>
+                <li><i class="fas fa-check-circle"></i> Driver's license</li>
+                <li><i class="fas fa-check-circle"></i> Tax report</li>
+                <li><i class="fas fa-check-circle"></i> Graduation certificate</li>
+                <li><i class="fas fa-check-circle"></i> Purchase order</li>
+                <li><i class="fas fa-check-circle"></i> Delivery note / Shipping invoice</li>
                 <li><i class="fas fa-check-circle"></i> Advertising and Marketing </li>
                 <li><i class="fas fa-check-circle"></i> Any documents that need translation</li>
-       
             </ul>
-            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Certification </h2>
@@ -50,7 +56,7 @@
                 <li><i class="fas fa-check-circle"></i> Birth Certificate</li>
                 <li><i class="fas fa-check-circle"></i> Criminal Record</li>
             </ul>
-            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Legal documents</h2>
@@ -68,7 +74,7 @@
                 <li><i class="fas fa-check-circle"></i> Contractor Contract</li>
                 <li><i class="fas fa-check-circle"></i> Project development Agreement (PDA)</li>
             </ul>
-            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
         <div class="service-card">
             <h2>Certification</h2>
@@ -79,9 +85,14 @@
                 <li><i class="fas fa-check-circle"></i> Government Application Form</li>
                 <li><i class="fas fa-check-circle"></i> Company Application Form</li>
                 <li><i class="fas fa-check-circle"></i> Visa Application Form in domestic and Aboard</li>
-           
+                <li><i class="fas fa-check-circle"></i> Registration form</li>
+                <li><i class="fas fa-check-circle"></i> Job application form</li>
+                <li><i class="fas fa-check-circle"></i> Student application form / Admission form</li>
+                <li><i class="fas fa-check-circle"></i> Evaluation form / Assessment form</li>
+                <li><i class="fas fa-check-circle"></i> Contract form / Agreement form</li>
+
             </ul>
-            <a href="sendfrom-en.php"> <button class="quote-button">Get a Free Quote</button></a>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
             
         </div>
        

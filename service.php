@@ -97,8 +97,9 @@
     </div>
 </div>
 
-<h2>ຮອງຮັບການແປຫຼາກຫຼາຍພາສາ</h2>
+
 <nav class="language-selector">
+<h2>ຮອງຮັບການແປຫຼາກຫຼາຍພາສາ</h2>
     <div class="language-container">
         <a href="maps.php" class="language-item">
             <img src="img/Lao.png" alt="ທຸງລາວ">

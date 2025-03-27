@@ -42,7 +42,10 @@
                     <p>
                         <strong>Mission:</strong> We are focused on delivering professional translation services that consistently impress our clients. Our commitment extends to the continuous development of our human resources and state-of-the-art translation tools, ensuring we remain modern and agile in an ever-changing global landscape.
                     </p>
-                    <a href="maps.html" class="btn btn-primary">Contact Us</a>
+                    <!-- <a href="maps-en.php" class="btn btn-primary">Contact Us</a> -->
+                    <a href="maps-en.php" class="button-contact">Contact Us</a>
+
+                    
                         <div class="social-icons">
                             <div class="social-icons">
                                 <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
