@@ -20,7 +20,7 @@
 
 <section class="herologo">
     <div class="hero-image">
-        <img src="../img/logo.jpeg" alt="TECHART Logo">
+        <img src="../img/logobody.png" alt="TECHART Logo">
     </div>
     <div class="hero-content">
         <div class="company-logo">
@@ -28,11 +28,11 @@
         </div>
         <h1>"Accuracy, Trust, and Speed: Let us translate for you."</h1>
         <button class="consultation-btn">Initial Consultation</button>
-        <div class="hero-social-icons">
+        <!-- <div class="hero-social-icons">
             <a href="#"><i class="hero-icon-instagram"></i></a>
             <a href="#"><i class="hero-icon-facebook"></i></a>
             <a href="#"><i class="hero-icon-twitter"></i></a>
-        </div>
+        </div> -->
     </div>
 </section>
 

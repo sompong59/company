@@ -1,8 +1,7 @@
 .wrapper {
     position: fixed;
-    bottom: 20px;
+    bottom: 20px; /* ເພີ່ມ bottom */
     right: 20px;
-    width: 60px;
     z-index: 1000;
 }
 
@@ -12,11 +11,12 @@
     width: 60px;
     text-decoration: none;
     overflow: hidden;
-    background: #25D366;
+    background: #00ad40;
     border-radius: 50px;
     cursor: pointer;
-    box-shadow: 0px 10px 10px #a5a5a55a;
+    box-shadow: 0px 10px 10px #f7fff018;
     transition: all 0.3s ease-out;
+    margin-bottom: 10px; /* ເພີ່ມໄລຍະຫ່າງລະຫວ່າງປຸ່ມ */
 }
 
 .wrapper .button .icon {
@@ -31,12 +31,12 @@
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1):hover .icon {
-    background: #116914;
+.wrapper .button:hover .icon {
+    background: #31a835;
 }
 
 .wrapper .button .icon i {
-    font-size: 25px;
+    font-size: 30px;
     line-height: 60px;
     transition: all 0.3s ease-out;
 }
@@ -53,10 +53,10 @@
     transition: all 0.3s ease-out;
 }
 
-.wrapper .button:nth-child(1) span {
-    color: #024e02;
-}
 
-.wrapper .button:nth-child(2) span {
-    color: #25D366;
+
+
+#whatsappButton, #facebookButton, #MessagerButton, #emailButton  {
+    display: none; /* ເຊື່ອງປຸ່ມ WhatsApp ແລະ Facebook ໃນເບື້ອງຕົ້ນ */
+ 
 }
