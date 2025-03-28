@@ -42,7 +42,7 @@
                             <strong>ພາລະກິດ:</strong> ເນັ້ນໜັກ ແລະ ຍຶດໝັ້ນການບໍລິການດ້ານການແປພາສາຢາງມືອາຊີບ, ເນັ້ນສ້າງ ຄວາມປະທັບໃຈຕໍ່ລູກຄ້າທຸກທ່ານທີ່ມາໃຊ້ບໍລິການ, ມຸ່ງໝັ້ນພັດທະນາບຸກຄະລະກອນ ແລະ ເຄື່ອງມືການບໍລິການພາສາຕ່າງປະເທດໃຫ້ທັນສະໄໝ ແລະ ສາມາດຕອບສະໜອງການປ່ຽນແປງ ຂອງ ວິວັດທະນາການໃນແຕ່ລະໄລຍະ.
                         </p>
                        
-                        <a href="maps.html" class="btn btn-primary">ຕິດຕໍ່ເຮົາ</a>
+                        <a href="maps.php" class="button-primary">ຕິດຕໍ່ເຮົາ</a>
                         <div class="social-icons">
                             <div class="social-icons">
                                 <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>

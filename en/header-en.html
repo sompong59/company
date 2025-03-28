@@ -248,26 +248,26 @@ body {
 </style>
 <body>
     <div class="wrapper">
-        <a href="https://wa.me/YOUR_PHONE_NUMBER" class="button" id="whatsappButton">
+        <a href="https://wa.me/85602052774279" class="button" id="whatsappButton">
             <div class="icon">
                 <i class="fab fa-whatsapp"></i>
             </div>
             <span>WhatsApp</span>
         </a>
-        <a href=https://m.me/pong.com class="button" id="MessagerButton">
+        <a href=https://m.me/ class="button" id="MessagerButton">
             <div class="icon">
                 <i class="fab fa-facebook-messenger"></i>
             </div>
             <span>Messager</span>
         </a>
         
-        <a href="https://line.me/ti/p/YOUR_LINE_ID" class="button" id="facebookButton">
+        <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="button" id="facebookButton">
             <div class="icon">
                 <i class="fab fa-facebook"></i>
             </div>
             <span>Facebook</span>
         </a>
-        <a href="mailto:YOUR_EMAIL_ADDRESS" class="button" id="emailButton">
+        <a href="mailto:techart.translation@gmail.com" class="button" id="emailButton">
             <div class="icon">
                 <i class="fas fa-envelope"></i>
             </div>
@@ -397,26 +397,27 @@ body {
 
         let isVisible = false;
 
-document.getElementById("messageButton").addEventListener("click", function() {
-    const whatsappButton = document.getElementById("whatsappButton");
-    const facebookButton = document.getElementById("MessagerButton");
-    const lineButton = document.getElementById("facebookButton");
-    const emailButton = document.getElementById("emailButton");
+        document.getElementById("messageButton").addEventListener("click", function(event) {
+            event.preventDefault(); // ປ້ອງກັນພຶດຕິກໍາເລີ່ມຕົ້ນ
+            const whatsappButton = document.getElementById("whatsappButton");
+            const facebookButton = document.getElementById("MessagerButton");
+            const lineButton = document.getElementById("facebookButton");
+            const emailButton = document.getElementById("emailButton");
 
-    if (!isVisible) {
-        whatsappButton.style.display = "block";
-        facebookButton.style.display = "block";
-        lineButton.style.display = "block";
-        emailButton.style.display = "block";
-        isVisible = true;
-    } else {
-        whatsappButton.style.display = "none";
-        facebookButton.style.display = "none";
-        lineButton.style.display = "none";
-        emailButton.style.display = "none";
-        isVisible = false;
-    }
-});
+            if (!isVisible) {
+                whatsappButton.style.display = "block";
+                facebookButton.style.display = "block";
+                lineButton.style.display = "block";
+                emailButton.style.display = "block";
+                isVisible = true;
+            } else {
+                whatsappButton.style.display = "none";
+                facebookButton.style.display = "none";
+                lineButton.style.display = "none";
+                emailButton.style.display = "none";
+                isVisible = false;
+            }
+        });
     </script>
 </body>
 </html>

@@ -59,7 +59,7 @@
                     <p>
                         <strong>Mission:</strong> To emphasize and adhere to professional translation services, create a lasting impression for all customers, and strive to develop our personnel and language service tools to be modern and responsive to the evolving landscape.
                     </p>
-                    <a href="maps.html" class="btn btn-primary">Contact Us</a>
+                    <a href="maps.html" class="button-primary">Contact Us</a>
                     <div class="social-icons">
                         <div class="social-icons">
                             <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
