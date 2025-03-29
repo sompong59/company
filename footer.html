@@ -3,190 +3,279 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- <link rel="stylesheet" href="footer.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&family=Noto+Serif+Lao:wght@100..900&display=swap');
 
-
-.footer {
-    font-family: "Noto Sans Lao Looped", sans-serif;
-    background-color: #003366;
-    color: white;
-    padding: 30px 0;
-    font-size: 18px;
-    font-weight: 500;
-    
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
-.footer-section h3 {
-    margin-bottom: 15px;
-    font-size: 1.2em;
-}
-
-.footer-section p,
-.footer-section ul li {
-    font-size: 0.9em;
-    line-height: 1.6;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-icons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: rgba(0, 141, 177, 0.1);
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.footer-icons a:hover {
-    background-color: #04eeff;
-}
-
-.footer-section ul li a:hover {
-    color: #04eeff;
-}
-
-.subscribe-form {
-    display: flex;
-}
-
-.subscribe-form input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-    flex: 1;
-    min-width: 200px;
-    font-family: "Noto Sans Lao Looped", sans-serif;
-}
-
-.subscribe-form button {
-    background-color: #00a0e9;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    font-family: "Noto Sans Lao Looped", sans-serif;
-    font-size: 16px;
-}
-
-.footer-bottom {
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: #fff;
-    color: #000000;
-}
-
-@media (max-width: 768px) {
-    .footer-section {
-        flex: 100%;
-        margin-bottom: 30px;
-        margin-left: 30px;
-        text-align: left;
-      
+    .footer {
+        font-family: "Noto Sans Lao Looped", sans-serif;
+        background-color: #003366;
+        color: white;
+        padding: 30px 0;
+        font-size: 18px;
+        font-weight: 500;
     }
 
-    .footer-bottom {
-        font-size: 12px;
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-section:first-child {
+        flex-grow: 2;
     }
 
     .footer-section h3 {
-        text-align: left;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    .footer-section p,
+    .footer-section ul li {
+        font-size: 0.9em;
+        line-height: 1.6;
     }
 
     .footer-section ul {
-        text-align: left;
+        list-style: none;
+        padding: 0;
     }
-}
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-section a {
+        color: white;
+        text-decoration: none;
+    }
 
    
-footer {
-    margin-top: auto;
-    
+
+    .footer-icons a {
+        display: flex; /* ເຮັດໃຫ້ແທັກ a ເປັນ flex container */
+        align-items: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວຕັ້ງ */
+        justify-content: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວນອນ */
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+        background-color: rgba(0, 141, 177, 0.1);
+        transition: background-color 0.3s ease;
+        margin-right: 20px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງໄອຄອນ */
+    }
+
+    .footer-icons a:hover {
+        background-color: #00a0e9;
+    }
+
+    .footer-section ul li a:hover {
+        color: #00a0e9;
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+
+    .subscribe-form input[type="email"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        flex: 1;
+        min-width: 200px;
+        font-family: "Noto Sans Lao Looped", sans-serif;
+    }
+
+    .subscribe-form button {
+        background-color: #00a0e9;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        font-family: "Noto Sans Lao Looped", sans-serif;
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: #fff;
+        color: #000000;
+    }
+
+    @media (max-width: 768px) {
+        .footer-section {
+            flex: 100%;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            text-align: left;
+        }
+
+        .footer-bottom {
+            font-size: 12px;
+        }
+
+        .footer-section h3 {
+            text-align: left;
+        }
+
+        .footer-section ul {
+            text-align: left;
+        }
+    }
+
+    footer {
+        margin-top: auto;
+    }
+
+    .footer-logo {
+        max-width: 250px;
+        margin-bottom: 20px;
+
+       
+    }
+
+    .footer-section:first-child div {
+        display: flex;
+        align-items: center; /* ຈັດໃຫ້ໄອຄອນຢູ່ກາງ */
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    /* ປ່ຽນ CSS ໃຫ້ໃຊ້ກັບໄອຄອນໃນສ່ວນຂໍ້ມູນຕິດຕໍ່ເທົ່ານັ້ນ */
+    .footer-section:first-child div:not(.footer-icons) i {
+        margin-right: 10px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງໄອຄອນ ແລະຂໍ້ຄວາມໃນຂໍ້ມູນຕິດຕໍ່ */
+    }
+
+    .footer-button {
+    text-align: center; /* ຈັດປຸ່ມໃຫ້ຢູ່ກາງ */
+    margin-top: 50px; /* ເພີ່ມຊ່ອງຫວ່າງເທິງປຸ່ມ */
+}
+
+.footer-button a {
+    display: inline-block; /* ເຮັດໃຫ້ແທັກ a ເປັນ block */
+    background-color: #00a0e9; /* ສີພື້ນຫຼັງປຸ່ມ */
+    color: white; /* ສີຕົວອັກສອນ */
+    padding: 10px 20px; /* ຂະໜາດ padding ພາຍໃນປຸ່ມ */
+    text-decoration: none; /* ເອົາ underline ອອກ */
+    border-radius: 5px; /* ເພີ່ມມຸມມົນ */
+    font-size: 16px; /* ຂະໜາດຕົວອັກສອນ */
+    transition: background-color 0.3s ease; /* ເພີ່ມ transition ເມື່ອ hover */
+}
+
+.footer-button a:hover {
+    background-color: #0087ce; /* ສີພື້ນຫຼັງເມື່ອ hover */
 }
 </style>
 <body>
-    
+    <footer class="footer">
+        <div class="footer-container">
+            <div class="footer-section">
+                <img src="img/footerlogo.png" alt="Logo" class="footer-logo">
+               
+                <div><i class="fas fa-map-marker-alt"></i> ຕຳແໜງ ບ້ານ ໂພນສະຫວ່າງ, ຮ່ອມ 11 ເມືອງ ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</div>
+                <div><i class="fas fa-phone"></i> 020 52 774 279</div>
+                <div><i class="fas fa-phone"></i> 020 52 519 665</div>
+                <div><i class="far fa-envelope"></i> techart.translation@gmail.com</div>
+                <div class="footer-icons">
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-whatsapp"></i></a>
+                    <a href="#"><i class="fab fa-facebook-messenger"></i></a>
+                    <a href="#"><i class="fas fa-envelope"></i></a>
+                </div>
 
-<footer class="footer">
-  <div class="footer-container">
-      <div class="footer-section">
-          <h3>ທີ່ຢູ່ບໍລິສັດ</h3>
-            <p><i class="fas fa-map-marker-alt"></i> ຕຳແໜງ ບ້ານ ໂພນສະຫວ່າງ, ຮ່ອມ 11 ເມືອງ ຈັນທະບູລີ, ນະຄອນຫຼວງວຽງຈັນ</p>
-            <p><i class="fas fa-phone"></i> +856 020 52 774 279</p>
-            <p><i class="fas fa-phone"></i> +856 020 52 519 665</p>
-            <p><i class="far fa-envelope"></i> techart.translation@gmail.com</p>
-          <div class="footer-icons">
-                <a href="#"><i class="fab fa-facebook-f"></i></a>
-                <a href="#"><i class="fab fa-whatsapp"></i></a>
-                <a href="#"><i class="fab fa-instagram"></i></a>
-                <a href="#"><i class="fab fa-youtube"></i></a>
-          </div>
-      </div>
-      <div class="footer-section">
-          <h3>ຂໍ້ມູນ</h3>
-          <p>ບໍລິສັດເທີກອາດ ແປພາສາຕ່າງປະເທດ ຈຳກັດຜູ້ດຽວ</p>
-          
-      </div>
-      <div class="footer-section">
-          <h3>ການບໍລິການ</h3>
-          <ul>
-              <li><a href="index.php">ໜ້າຫຼັກ</a></li>
-              <li><a href="about.php">ກ່ຽວກັບພວກເຮົາ</a></li>
-              <li><a href="service.php">ປະເພດການບໍລິການ</a></li>
-              <li><a href="process.php">ຂັ້ນຕອນການແປ</a></li>
-              <li><a href="team.php">ທີມງານບໍລິສັັດ</a></li>
-              <li><a href="maps.php">ຕິດຕໍ່ພວກເຮົາ</a></li>
-          </ul>
-      </div>
-      <div class="footer-section">
-          <h3>ຕິດຕາມຜົນງານ</h3>
-          <form class="subscribe-form">
-              <input type="email" placeholder="ໃສ່ອີເມວຂອງທ່ານ" required>
-              <button type="submit">ຕິດຕາມ</button>
-          </form>
-      </div>
-  </div>
- 
-</footer>
-<div class="footer-bottom">
-  <p>© 2025 ສະຫງວນລິຂະສິດໂດຍ ບໍລິສັດເທັກອາດ ແປພາສາຕ່າງປະເທດ ຈຳກັດຜູ້ດຽວ</p>
-</div>
+                <div class="footer-button">
+                    <a href="sendfrom.php" >ໃບສະເໜີລາຄາດ່ວນ</a>
+                </div>
+                
+            </div>
+            <div class="footer-section">
+                <h3>ບໍລິສັດ</h3>
+                <ul>
+                    <li><a href="index.php">ໜ້າຫຼັກ</a></li>
+                    <li><a href="about.php">ກ່ຽວກັບພວກເຮົາ</a></li>
+                    <li><a href="service.php">ປະເພດການບໍລິການ</a></li>
+                    <li><a href="process.php">ຂັ້ນຕອນການແປ</a></li>
+                    <li><a href="team.php">ທີມງານບໍລິສັັດ</a></li>
+                    <li><a href="maps.php">ຕິດຕໍ່ພວກເຮົາ</a></li>
+                    <li><a href="#section1">ຜົນງານການແປ</a></li>
+                    <li><a href="#section2">ລູກຄ້າທີໄວ້ວ່າງໃຈ</a></li>
+                    
+                </ul>
+                <h3>ການບໍລິການ</h3>
+                <ul>
+                    <li><a href="index.php">ໜ້າຫຼັກ</a></li>
+                    <li><a href="about.php">ກ່ຽວກັບພວກເຮົາ</a></li>
+                    <li><a href="service.php">ປະເພດການບໍລິການ</a></li>
+                    <li><a href="process.php">ຂັ້ນຕອນການແປ</a></li>
+                    <li><a href="team.php">ທີມງານບໍລິສັັດ</a></li>
+                    <li><a href="maps.php">ຕິດຕໍ່ພວກເຮົາ</a></li>
+                </ul>
+
+               
+            </div>
+            <div class="footer-section">
+                <h3>ການບໍລິການ</h3>
+                <ul>
+                    <li><a href="index.php">ໜ້າຫຼັກ</a></li>
+                    <li><a href="about.php">ກ່ຽວກັບພວກເຮົາ</a></li>
+                    <li><a href="service.php">ປະເພດການບໍລິການ</a></li>
+                    <li><a href="process.php">ຂັ້ນຕອນການແປ</a></li>
+                    <li><a href="team.php">ທີມງານບໍລິສັັດ</a></li>
+                    <li><a href="maps.php">ຕິດຕໍ່ພວກເຮົາ</a></li>
+                </ul>
+                <h3>ພາສາ</h3>
+                <p>ພາສາລາວ</p>
+                <p>ພາສາອັງກິດ</p>
+                <p>ພາສາຈີນ</p>
+                <p>ພາສາໄທ</p>
+                <p>ພາສາຫວຽດນາມ</p>
+                <p>ພາສາຟຣັ່ງ</p>
+                <p>ພາສາຣັດເຊຍ</p>
+                <h3>ພາສາທ້ອງຖິ່ນ</h3>
+                <p>ພາສາກຶມມຸ</p>
+                <p>ພາສາມົ້ງ</p>
+            </div>
+            <div class="footer-section">
+                <ul>
+                    <h3>ເອກະສານ</h3>
+                    <li><i class="fas fa-check-circle"></i> ບັດປະຈຳຕົວ</li>
+                    <li><i class="fas fa-check-circle"></i> ປື້ມສຳມະໂນຄົວ</li>
+                    <li><i class="fas fa-check-circle"></i> ໃບຂັບຂີ່</li>
+                    <li><i class="fas fa-check-circle"></i> ໃບປະກາດຈົບການສຶກສາ</li>
+                    <li><i class="fas fa-check-circle"></i> ສື່ໂຄສະນາ-ການຕະຫຼາດ</li>
+                    <li><i class="fas fa-check-circle"></i> ເອກະສານອື່ນໆ ທີ່ລູກຄ້າຕ້ອງການ </li>
+                    <li><i class="fas fa-check-circle"></i> ຊີວະປະຫວັດນັກສຶກສາ </li>
+                <li><i class="fas fa-check-circle"></i> ຊີວະປະຫວັດພະນັກງານ</li>
+                <li><i class="fas fa-check-circle"></i> ແບບຟອມເອກະສານລັດຖະການ </li>
+                <li><i class="fas fa-check-circle"></i> ບົດບັນທຶກກອງປະຊຸມ </li>
+                <li><i class="fas fa-check-circle"></i> ກົດລະບຽບບໍລິສັດ</li>
+                <li><i class="fas fa-check-circle"></i> ສັນຍາ ປະເພດຕ່າງໆ </li>
+                <li><i class="fas fa-check-circle"></i> ໃບທະບຽນວິສາຫະກິດ </li>
+                <li><i class="fas fa-check-circle"></i> ໃບຄຳຮ້ອງ </li>
+                <li><i class="fas fa-check-circle"></i> ໃບຢັ້ງຢືນການແຕ່ງງານ </li>
+                <li><i class="fas fa-check-circle"></i> ໃບແຈ້ງພາສີ-ອາກອນ</li>
+                <li><i class="fas fa-check-circle"></i> ໃບຢັ້ງຢືນພະນັກງານ</li>
+                <li><i class="fas fa-check-circle"></i> ໃບແຈ້ງໂທດ</li>
+                <li><i class="fas fa-check-circle"></i> ເອກະສານອື່ນໆ...</li>
+                </ul>
+            </div>
+            
+        </div>
+    </footer>
+    <div class="footer-bottom">
+        <p>© 2025 ສະຫງວນລິຂະສິດໂດຍ ບໍລິສັດເທັກອາດ ແປພາສາຕ່າງປະເທດ ຈຳກັດຜູ້ດຽວ</p>
+    </div>
 </body>
 </html>

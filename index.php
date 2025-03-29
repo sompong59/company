@@ -237,7 +237,7 @@
             </div>
         </div>
     </div>
-    <h2>ຕົວຢາງ ເອກະສານທີແປສຳເລັດ</h2>
+    <h2 id="section1">ຕົວຢາງ ເອກະສານທີແປສຳເລັດ</h2>
     <div class="carousel-container">
         <div class="carousel-track">
             <div class="carousel-slide">
@@ -274,7 +274,7 @@
 
 
 
-    <div class="my-container">
+    <div id="section2" class="my-container">
         <div class="my-header">
             <h1>ລູກຄ້າທີ່ໃຊ້ບໍລິການປະຈຳ</h1>
             <div class="my-orange-bar"></div>
