@@ -3,189 +3,292 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
-    <!-- <link rel="stylesheet" href="footer.css"> -->
-    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/> -->
-
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
 <style>
     @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&family=Noto+Serif+Lao:wght@100..900&display=swap');
 
-
-.footer {
-    font-family: "Noto Sans Lao Looped", sans-serif;
-    background-color: #003366;
-    color: white;
-    padding: 30px 0;
-    font-size: 18px;
-    font-weight: 500;
-    
-}
-
-.footer-container {
-    display: flex;
-    justify-content: space-around;
-    flex-wrap: wrap;
-    max-width: 1200px;
-    margin: 0 auto;
-}
-
-.footer-section {
-    flex: 1;
-    min-width: 250px;
-    padding: 0 20px;
-    margin-bottom: 20px;
-}
-
-.footer-section h3 {
-    margin-bottom: 15px;
-    font-size: 1.2em;
-}
-
-.footer-section p,
-.footer-section ul li {
-    font-size: 0.9em;
-    line-height: 1.6;
-}
-
-.footer-section ul {
-    list-style: none;
-    padding: 0;
-}
-
-.footer-section ul li {
-    margin-bottom: 10px;
-}
-
-.footer-section a {
-    color: white;
-    text-decoration: none;
-}
-
-.footer-icons a {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 35px;
-    height: 35px;
-    border-radius: 50%;
-    background-color: rgba(0, 141, 177, 0.1);
-    margin-right: 10px;
-    transition: background-color 0.3s ease;
-}
-
-.footer-icons a:hover {
-    background-color: #04eeff;
-}
-
-.footer-section ul li a:hover {
-    color: #04eeff;
-}
-
-.subscribe-form {
-    display: flex;
-}
-
-.subscribe-form input[type="email"] {
-    padding: 10px;
-    border: 1px solid #ccc;
-    border-radius: 4px 0 0 4px;
-    flex: 1;
-    min-width: 200px;
-    font-family: "Noto Sans Lao Looped", sans-serif;
-}
-
-.subscribe-form button {
-    background-color: #00a0e9;
-    color: white;
-    padding: 10px 15px;
-    border: none;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-    font-family: "Noto Sans Lao Looped", sans-serif;
-    font-size: 16px;
-}
-
-.footer-bottom {
-    text-align: center;
-    border-top: 1px solid rgba(255, 255, 255, 0.1);
-    background-color: #fff;
-    color: #000000;
-}
-
-@media (max-width: 768px) {
-    .footer-section {
-        flex: 100%;
-        margin-bottom: 30px;
-        margin-left: 30px;
-        text-align: left;
-      
+    .footer {
+        font-family: "Noto Sans Lao Looped", sans-serif;
+        background-color: #003366;
+        color: white;
+        padding: 30px 0;
+        font-size: 18px;
+        font-weight: 500;
     }
 
-    .footer-bottom {
-        font-size: 12px;
+    .footer-container {
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+        max-width: 1200px;
+        margin: 0 auto;
+    }
+
+    .footer-section {
+        flex: 1;
+        min-width: 250px;
+        padding: 0 20px;
+        margin-bottom: 20px;
+    }
+
+    .footer-section:first-child {
+        flex-grow: 2;
     }
 
     .footer-section h3 {
-        text-align: left;
+        margin-bottom: 15px;
+        font-size: 1.2em;
+    }
+
+    .footer-section p,
+    .footer-section ul li {
+        font-size: 0.9em;
+        line-height: 1.6;
     }
 
     .footer-section ul {
-        text-align: left;
+        list-style: none;
+        padding: 0;
     }
-}
+
+    .footer-section ul li {
+        margin-bottom: 10px;
+    }
+
+    .footer-section a {
+        color: white;
+        text-decoration: none;
+    }
 
    
-footer {
-    margin-top: auto;
-    
+
+    .footer-icons a {
+        display: flex; /* ເຮັດໃຫ້ແທັກ a ເປັນ flex container */
+        align-items: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວຕັ້ງ */
+        justify-content: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວນອນ */
+        width: 50px;
+        height: 50px;
+        font-size: 1.5em;
+        background-color: rgba(0, 141, 177, 0.1);
+        transition: background-color 0.3s ease;
+        margin-right: 20px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງໄອຄອນ */
+    }
+
+    .footer-icons a:hover {
+        background-color: #00a0e9;
+    }
+
+    .footer-section ul li a:hover {
+        color: #00a0e9;
+    }
+
+    .subscribe-form {
+        display: flex;
+    }
+
+    .subscribe-form input[type="email"] {
+        padding: 10px;
+        border: 1px solid #ccc;
+        border-radius: 4px 0 0 4px;
+        flex: 1;
+        min-width: 200px;
+        font-family: "Noto Sans Lao Looped", sans-serif;
+    }
+
+    .subscribe-form button {
+        background-color: #00a0e9;
+        color: white;
+        padding: 10px 15px;
+        border: none;
+        border-radius: 0 4px 4px 0;
+        cursor: pointer;
+        font-family: "Noto Sans Lao Looped", sans-serif;
+        font-size: 16px;
+    }
+
+    .footer-bottom {
+        text-align: center;
+        border-top: 1px solid rgba(255, 255, 255, 0.1);
+        background-color: #fff;
+        color: #000000;
+    }
+
+    @media (max-width: 768px) {
+        .footer-section {
+            flex: 100%;
+            margin-bottom: 30px;
+            margin-left: 30px;
+            text-align: left;
+        }
+
+        .footer-bottom {
+            font-size: 12px;
+        }
+
+        .footer-section h3 {
+            text-align: left;
+        }
+
+        .footer-section ul {
+            text-align: left;
+        }
+    }
+
+    footer {
+        margin-top: auto;
+    }
+
+    .footer-logo {
+        max-width: 250px;
+        margin-bottom: 20px;
+
+       
+    }
+
+    .footer-section:first-child div {
+        display: flex;
+        align-items: center; /* ຈັດໃຫ້ໄອຄອນຢູ່ກາງ */
+        margin-bottom: 20px;
+        font-size: 16px;
+    }
+
+    /* ປ່ຽນ CSS ໃຫ້ໃຊ້ກັບໄອຄອນໃນສ່ວນຂໍ້ມູນຕິດຕໍ່ເທົ່ານັ້ນ */
+    .footer-section:first-child div:not(.footer-icons) i {
+        margin-right: 10px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງໄອຄອນ ແລະຂໍ້ຄວາມໃນຂໍ້ມູນຕິດຕໍ່ */
+    }
+
+    .footer-button {
+    text-align: center; /* ຈັດປຸ່ມໃຫ້ຢູ່ກາງ */
+    margin-top: 50px; /* ເພີ່ມຊ່ອງຫວ່າງເທິງປຸ່ມ */
 }
 
+.footer-button a {
+    display: inline-block; /* ເຮັດໃຫ້ແທັກ a ເປັນ block */
+    background-color: #00a0e9; /* ສີພື້ນຫຼັງປຸ່ມ */
+    color: white; /* ສີຕົວອັກສອນ */
+    padding: 10px 20px; /* ຂະໜາດ padding ພາຍໃນປຸ່ມ */
+    text-decoration: none; /* ເອົາ underline ອອກ */
+    border-radius: 5px; /* ເພີ່ມມຸມມົນ */
+    font-size: 16px; /* ຂະໜາດຕົວອັກສອນ */
+    transition: background-color 0.3s ease; /* ເພີ່ມ transition ເມື່ອ hover */
+}
+
+.footer-button a:hover {
+    background-color: #0087ce; /* ສີພື້ນຫຼັງເມື່ອ hover */
+}
+/* .footer-section .fas:hover{
+color: #0087ce;
+} */
 </style>
 <body>
-    
-
     <footer class="footer">
         <div class="footer-container">
             <div class="footer-section">
-                <h3>Company Address</h3>
-                <p><i class="fas fa-map-marker-alt"></i> Location: Phon Savang Village, Alley 11, Chanthabouly District, Vientiane Capital</p>
-                <p><i class="fas fa-phone"></i> +856 020 52 774 279</p>
-                <p><i class="fas fa-phone"></i> +856 020 52 519 665</p>
-                <p><i class="far fa-envelope"></i> techart.translation@gmail.com</p>
-                    <div class="footer-icons">
-                    <a href="#"><i class="fab fa-facebook-f"></i></a>
-                    <a href="#"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fa-youtube"></i></a>
+                <img src="../img/footerlogo.png" alt="Logo" class="footer-logo">
+               
+                <div><i class="fas fa-map-marker-alt"></i> Address: Phon Savang Village, Alley 11, Chanthabuly District, Vientiane Capital</div>
+                <div><i class="fas fa-phone"></i> 020 52 774 279</div>
+                <div><i class="fas fa-phone"></i> 020 52 519 665</div>
+                <div><i class="far fa-envelope"></i> techart.translation@gmail.com</div>
+                <div class="footer-icons">
+                    <a href="https://www.facebook.com/profile.php?id=100063771757619"><i class="fab fa-facebook-f"></i></a>
+                    <a href="https://wa.me/85602052774279"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://m.me/100063771757619"><i class="fab fa-facebook-messenger"></i></a>
+                    <a href="mailto:techart.translation@gmail.com?subject=Price Inquiry&body=Hello, I would like to inquire about the price of document translation."><i class="fas fa-envelope"></i></a>                </div>
+
+                <div class="footer-button">
+                    <a href="sendfrom-en.php" >Quick Quote</a>
                 </div>
+                
             </div>
             <div class="footer-section">
-                <h3>Information</h3>
-                <p>Tech Art Foreign Language Translation Sole Co., Ltd.</p>
-            </div>
-            <div class="footer-section">
-                <h3>Services</h3>
+                <h3>ບໍລິສັດ</h3>
                 <ul>
-                    <li><a href="index-en.php">Home</a></li>
-                    <li><a href="about-en.php">About Us</a></li>
-                    <li><a href="service-en.php">Services</a></li>
-                    <li><a href="process-en.php">Process</a></li>
-                    <li><a href="team-en.php">Teams</a></li>
-                    <li><a href="maps-en.php">Contact Us</a></li>
+                    <li><a href="index.php">Home</a></li>
+                    <li><a href="about.php">About</a></li>
+                    <li><a href="service.php">Service</a></li>
+                    <li><a href="process.php">Process</a></li>
+                    <li><a href="team.php">Teams</a></li>
+                    <li><a href="maps.php">Contact</a></li>
+                    <li><a href="#section1">Translation Portfolio</a></li>
+                    <li><a href="#section2">Core Customers</a></li>
+                    
+                    <h3>Languages</h3>
+                    <p>Lao</p>
+                    <p>English</p>
+                    <p>Chinese</p>
+                    <p>Thai</p>
+                    <p>Vietnamese</p>
+                    <p>French</p>
+                    <p>Russian</p>
+                    
+                    <h3>Local Languages</h3>
+                    <p>Khmu</p>
+                    <p>Hmong</p>
+
+               
+            </div>
+            <div class="footer-section">
+                <h3>Documents</h3>
+            <ul>
+                <i class="fas fa-check-circle"></i> Enterprise Registration Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Investment License </li>
+                <li><i class="fas fa-check-circle"></i> Business Operation License</li>
+                <li><i class="fas fa-check-circle"></i> Proposal Letter</li>
+                <li><i class="fas fa-check-circle"></i> Proof of Address</li>
+                <li><i class="fas fa-check-circle"></i> Marriage Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Tax payment Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Employee Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Birth Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Criminal Record</li>
+                <li><i class="fas fa-check-circle"></i> Minute of Meeting</li>
+                <li><i class="fas fa-check-circle"></i> AOA</li>
+                <li><i class="fas fa-check-circle"></i> Concession Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Power Purchase Agreement  </li>
+                <li><i class="fas fa-check-circle"></i> Cooperation Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Shareholder Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Sale Shareholder Agreement </li>
+                <li><i class="fas fa-check-circle"></i> Service Contract </li>
+                <li><i class="fas fa-check-circle"></i> Consultation Contract </li>
+                <li><i class="fas fa-check-circle"></i> Contractor Contract</li>
+                <li><i class="fas fa-check-circle"></i> Project development Agreement (PDA)</li>
+            </ul>
+               
+            </div>
+            <div class="footer-section">
+                <h3></h3>
+                <ul>
+                    <li><i class="fas fa-check-circle"></i> Minute of Meeting</li>
+                    <li><i class="fas fa-check-circle"></i> AOA</li>
+                    <li><i class="fas fa-check-circle"></i> Concession Agreement</li>
+                    <li><i class="fas fa-check-circle"></i> Power Purchase Agreement  </li>
+                    <li><i class="fas fa-check-circle"></i> Cooperation Agreement</li>
+                    <li><i class="fas fa-check-circle"></i> Shareholder Agreement</li>
+                    <li><i class="fas fa-check-circle"></i> Sale Shareholder Agreement </li>
+                    <li><i class="fas fa-check-circle"></i> Service Contract </li>
+                    <li><i class="fas fa-check-circle"></i> Consultation Contract </li>
+                    <li><i class="fas fa-check-circle"></i> Contractor Contract</li>
+                    <li><i class="fas fa-check-circle"></i> Project development Agreement (PDA)</li>
+                    <li><i class="fas fa-check-circle"></i> Student Curriculum Vitae </li>
+                    <li><i class="fas fa-check-circle"></i> Employee Curriculum Vitae </li>
+                    <li><i class="fas fa-check-circle"></i> Government Application Form</li>
+                    <li><i class="fas fa-check-circle"></i> Company Application Form</li>
+                    <li><i class="fas fa-check-circle"></i> Visa Application Form in domestic and Aboard</li>
+                    <li><i class="fas fa-check-circle"></i> Registration form</li>
+                    <li><i class="fas fa-check-circle"></i> Job application form</li>
+                    <li><i class="fas fa-check-circle"></i> Student application form / Admission form</li>
+                    <li><i class="fas fa-check-circle"></i> Evaluation form / Assessment form</li>
+                    <li><i class="fas fa-check-circle"></i> Contract form / Agreement form</li>
+                </ul>
+
                 </ul>
             </div>
-            <div class="footer-section">
-                <h3>Follow Us</h3>
-                <form class="subscribe-form">
-                    <input type="email" placeholder="Enter your email" required>
-                    <button type="submit">Follow</button>
-                </form>
-            </div>
+            
         </div>
     </footer>
     <div class="footer-bottom">
         <p>© 2025 All rights reserved by Tech Art Foreign Language Translation Sole Co., Ltd.</p>
     </div>
-    </body>
-    </html>
+</body>
+</html>
