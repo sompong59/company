@@ -41,6 +41,7 @@
                     <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
                     <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    
                 </div>
             </div>
         </div>

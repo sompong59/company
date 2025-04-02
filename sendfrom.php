@@ -33,8 +33,8 @@
                 <div class="input-group">
                     <label>ເລືອກພາສາເປົ້າໝາຍ <span class="required">*</span></label>
                     <select type="text" name="targetLanguage">
-                        <option value="ພາສາລາວ ">ພາສາລາວ </option>
                         <option value="ພາສາອັງກິດ ">ພາສາອັງກິດ </option>
+                        <option value="ພາສາລາວ ">ພາສາລາວ </option>
                         <option value="ພາສາຈີນ ">ພາສາຈີນ </option>
                         <option value="ພາສາຫວຽດນາມ ">ພາສາຫວຽດນາມ </option>
                         <option value="ພາສາຟຣັງ ">ພາສາຟຣັງ </option>
@@ -94,13 +94,13 @@
         <div id="errorModal" class="popup-modal" style="display: none;">
             <div class="modal-body">
                 <p id="errorMessage"></p>
-                <button id="errorModalButton">ສຳເລັດ</button>
+                <button id="errorModalButton">ລອງໃໝ່ອີກຄັ້ງ</button>
             </div>
         </div>
     </div>
     <?php include 'footer.html';?>
     <script>
-        document.getElementById('contactForm').addEventListener('submit', async function(event) {
+       document.getElementById('contactForm').addEventListener('submit', async function(event) {
     event.preventDefault();
     const submitButton = document.getElementById('submitButton');
     const loadingIndicator = document.getElementById('loadingIndicator');
@@ -112,7 +112,16 @@
     const errorModalButton = document.getElementById('errorModalButton');
 
     submitButton.disabled = true;
-    loadingIndicator.style.display = 'block';
+    loadingIndicator.style.display = 'block'; // ສະແດງ loadingIndicator ກ່ອນ
+
+    // ກວດສອບຟອມ
+    if (!this.name.value || !this.email.value || !this.phoneNamber.value || !this.originalLanguage.value || !this.targetLanguage.value || !this.serviceType.value) {
+        errorMessage.textContent = 'ກະລຸນາປ້ອນຂໍ້ມູນໃຫ້ຄົບຖ້ວນ.';
+        errorModal.style.display = 'block';
+        submitButton.disabled = false;
+        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຖ້າກວດສອບບໍ່ຜ່ານ
+        return;
+    }
 
     try {
         const formData = new FormData(this);
@@ -128,7 +137,7 @@
         const data = await response.json();
 
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none';
+        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຫຼັງຈາກ fetch ສຳເລັດ
 
         if (data.success) {
             modalMessage.textContent = data.message;
@@ -138,7 +147,7 @@
             };
             this.reset();
         } else {
-            errorMessage.textContent = data.message;
+            errorMessage.textContent = data.message || 'ເກີດຂໍ້ຜິດພາດ. ກະລຸນາລອງໃໝ່.';
             errorModal.style.display = 'block';
             errorModalButton.onclick = function() {
                 errorModal.style.display = 'none';
@@ -147,7 +156,7 @@
     } catch (error) {
         console.error('Error:', error);
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none';
+        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ເມື່ອເກີດຂໍ້ຜິດພາດ
         errorMessage.textContent = 'ເກີດຂໍ້ຜິດພາດ. ກະລຸນາລອງໃໝ່.';
         errorModal.style.display = 'block';
         errorModalButton.onclick = function() {

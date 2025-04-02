@@ -114,11 +114,20 @@
     const errorModalButton = document.getElementById('errorModalButton');
 
     submitButton.disabled = true;
-    loadingIndicator.style.display = 'block';
+    loadingIndicator.style.display = 'block'; // Show loadingIndicator first
+
+    // Form validation
+    if (!this.name.value || !this.email.value || !this.phoneNamber.value || !this.originalLanguage.value || !this.targetLanguage.value || !this.serviceType.value) {
+        errorMessage.textContent = 'Please fill in all required fields.';
+        errorModal.style.display = 'block';
+        submitButton.disabled = false;
+        loadingIndicator.style.display = 'none'; // Hide loadingIndicator if validation fails
+        return;
+    }
 
     try {
         const formData = new FormData(this);
-        const response = await fetch('../contact.php', {
+        const response = await fetch('contact.php', {
             method: 'POST',
             body: formData
         });
@@ -130,7 +139,7 @@
         const data = await response.json();
 
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none';
+        loadingIndicator.style.display = 'none'; // Hide loadingIndicator after fetch completes
 
         if (data.success) {
             modalMessage.textContent = data.message;
@@ -140,7 +149,7 @@
             };
             this.reset();
         } else {
-            errorMessage.textContent = data.message;
+            errorMessage.textContent = data.message || 'An error occurred. Please try again.';
             errorModal.style.display = 'block';
             errorModalButton.onclick = function() {
                 errorModal.style.display = 'none';
@@ -149,8 +158,8 @@
     } catch (error) {
         console.error('Error:', error);
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none';
-        errorMessage.textContent = 'Something went wrong. Please try again.';
+        loadingIndicator.style.display = 'none'; // Hide loadingIndicator on error
+        errorMessage.textContent = 'An error occurred. Please try again.';
         errorModal.style.display = 'block';
         errorModalButton.onclick = function() {
             errorModal.style.display = 'none';
