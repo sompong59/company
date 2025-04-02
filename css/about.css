@@ -39,7 +39,10 @@
 
 .text-content h2 {
     margin-bottom: 10px;
+    text-align: left;
+    color: #333;
 }
+
 
 .text-content p {
     margin-bottom: 30px;
@@ -56,12 +59,12 @@
     justify-content: left; /* ຈັດໃຫ້ລາຍການຢູ່ກາງຕາມແນວນອນ */
 }
 
-.social-icons {
+.social-icons-primary {
     display: flex;
     margin-left: 20px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງປຸ່ມ ແລະ ໄອຄອນ */
 }
 
-.social-icons a {
+.social-icons-primary a {
       display: flex; /* ເຮັດໃຫ້ແທັກ a ເປັນ flex container */
         align-items: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວຕັ້ງ */
         justify-content: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວນອນ */
@@ -91,7 +94,7 @@
     background-color: rgba(20, 205, 252, 0.473);
 
 }
-.social-icons a:hover{
+.social-icons-primary a:hover{
     background-color: rgba(20, 205, 252, 0.473);
 
 }
@@ -101,6 +104,7 @@
         flex-direction: column;
         align-items: stretch;
          width: 100%;
+        
       
     }
 
@@ -124,11 +128,11 @@
         
     }
 
-    .social-icons {
+    .social-icons-primary {
         margin-left: 10px; /* ຫຼຸດ margin ຊ້າຍ */
     }
 
-    .social-icons a {
+    .social-icons-primary a {
         width: 45px; /* ຫຼຸດຂະໜາດວົງມົນ */
         height: 45px; /* ຫຼຸດຂະໜາດວົງມົນ */
         font-size: 20px; /* ຫຼຸດຂະໜາດໄອຄອນ */
@@ -142,7 +146,7 @@
         flex-direction: column; /* ຈັດລາຍການຕິດຕໍ່ເປັນຖັນ */
     }
 
-    .social-icons {
+    .social-icons-primary {
         margin-left: 0;
         margin-top: 10px;
     }
@@ -159,4 +163,5 @@ iframe {
   width: 100%; /* ປັບຂະໜາດວິດີໂອໃຫ້ກວ້າງເຕັມຄອນເທນເນີ */
   height: 600px ; /* ຮັກສາອັດຕາສ່ວນຂອງວິດີໂອ */
   border-radius: 5px;
+  
 }

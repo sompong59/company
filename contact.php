@@ -47,7 +47,7 @@ if (isset($_POST['originalLanguage'])    &&
     }
 
     if (empty($originalLanguage) || empty($targetLanguage) || empty($name) || empty($subject) || empty($text)) {
-        $response = ['success' => false, 'message' => 'Fill out all required entry fields'];
+        $response = ['success' => false, 'message' => 'ກະລຸນາຕື່ມຂໍ້ມູນໃຫ້ຄົບຖ້ວນ..'];
         header('Content-Type: application/json');
         echo json_encode($response);
         exit;

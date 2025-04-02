@@ -7,6 +7,7 @@
     <title><?php echo $pageTitle; ?></title>
     <link rel="shortcut icon" href="../img/logo.jpeg" type="logo">
     <link rel="stylesheet" href="../css/process.css">
+    <link rel="stylesheet" href="../css/about.css">
     <link rel="stylesheet" href="../css/index.css">
     <link rel="stylesheet" href="../css/service.css">
     <link rel="stylesheet" href="../css/hero.css">
@@ -57,7 +58,7 @@
     
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">Contact Us</a>
-                <div class="social-icons">
+                <div class="social-icons-primary">
                     <a href="https://wa.me/85602052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
                     <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
@@ -213,37 +214,51 @@
 
 <h2>Examples of Completed Translated Documents</h2>
 <div class="carousel-container">
-    <div class="carousel-track">
-        <div class="carousel-slide">
-            <div class="image-container">
-                <img src="../img/xp2.png" alt="Image 1">
+        <div class="carousel-track">
+            <div class="carousel-slide">
+                <div class="image-container">
+                    <img src="../img/Documents-1.png" alt="Image 1">
+                </div>
+                <div class="image-container">
+                    <img src="../img/Documents-2.png" alt="Image 2">
+                </div>
             </div>
-            <div class="image-container">
-                <img src="../img/xp6.png" alt="Image 2">
+            <div class="carousel-slide">
+                <div class="image-container">
+                    <img src="../img/Documents-3.png" alt="Image 3">
+                </div>
+                <div class="image-container">
+                    <img src="../img/Documents-4.png" alt="Image 4">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="image-container">
+                    <img src="../img/Documents-5.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="../img/Documents-6.png" alt="Image 6">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="../img/Documents-7.png" alt="Image 7">
+                </div>
+                <div class="image-container">
+                    <img src="../img/Documents-8.png" alt="Image 8">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="../img/Documents-9.png" alt="Image 9">
+                </div>
+                <div class="image-container">
+                    <img src="../img/Documents-10.png" alt="Image 10">
+                </div>
             </div>
         </div>
-        <div class="carousel-slide">
-            <div class="image-container">
-                <img src="../img/xp5.png" alt="Image 3">
-            </div>
-            <div class="image-container">
-                <img src="../img/xp6.png" alt="Image 4">
-            </div>
-        </div>
-        <div class="carousel-slide">
-            <div class="image-container">
-                <img src="../img/xp2.png" alt="Image 5">
-            </div>
-            <div class="image-container">
-                <img src="../img/xp3.png" alt="Image 6">
-            </div>
+        <div class="navigation">
+            <button class="carousel-prev">&#10094;</button>
+            <button class="carousel-next">&#10095;</button>
         </div>
     </div>
-    <div class="navigation">
-        <button class="carousel-prev">&#10094;</button>
-        <button class="carousel-next">&#10095;</button>
-    </div>
-</div>
 <div class="my-container">
     <div class="my-header">
         <h1>Core Customers</h1>

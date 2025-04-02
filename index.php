@@ -7,19 +7,36 @@
     <title><?php echo $pageTitle; ?></title>
     <link rel="shortcut icon" href="img/logo.jpeg" type="logo">
     <link rel="stylesheet" href="css/process.css">
-    <!-- <link rel="stylesheet" href="why.css"> -->
+    <link rel="stylesheet" href="css/about.css">
     <link rel="stylesheet" href="css/index.css">
     <link rel="stylesheet" href="css/service.css">
     <link rel="stylesheet" href="css/hero.css">
     <link rel="stylesheet" href="css/customer.css">
-    <!-- <link rel="stylesheet" href="css/team.css"> -->
     <link rel="stylesheet" href="css/social-buttons.css"> 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
  </head>
 
 <body>
 <?php include 'header.html';?>
-
+<section class="herologo">
+        <div class="hero-image">
+            <img src="img/logobody.png" alt="ໂລໂກ້ເທັກອາດ">
+        </div>
+        <div class="hero-content">
+            <div class="company-logo">
+                <img src="img/trans.png" alt="ໂລໂກ້">
+            </div>
+            <h1>"ຄວາມຖືກຕ້ອງ, ຄວາມເຊື່ອໝັ້ນ, ແລະຄວາມວ່ອງໄວ: ໃຫ້ເຮົາແປພາສາໃຫ້ທ່ານ."</h1>
+            <a href="maps.php"><button class="consultation-btn">ສອບຖາມຂໍ້ມູນເບື້ອງຕົ້ນ</button></a>
+            
+            <!-- <div class="hero-social-icons">
+            <a href="#"><i class="hero-icon-instagram"></i></a>
+           
+            <a href="#"><i class="hero-icon-facebook"></i></a>
+            <a href="#"><i class="hero-icon-twitter"></i></a>
+        </div> -->
+        </div>
+    </section>
 <div class="grid-container">
         <div class="image-box">
             <iframe  src="https://www.youtube.com/embed/9jbgtasbWtc?si=dy6H_P_lxqoORV6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
@@ -41,9 +58,9 @@
     
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">ຕິດຕໍ່ພວກເຮົາ</a>
-                <div class="social-icons">
-                    <a href="https://wa.me/85602052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                <div class="social-icons-primary">
+                    <a href="https://wa.me/8562052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/100063771757619/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
                     <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
                     <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
@@ -211,26 +228,40 @@
         <div class="carousel-track">
             <div class="carousel-slide">
                 <div class="image-container">
-                    <img src="img/xp2.png" alt="Image 1">
+                    <img src="img/Documents-1.png" alt="Image 1">
                 </div>
                 <div class="image-container">
-                    <img src="img/xp6.png" alt="Image 2">
-                </div>
-            </div>
-            <div class="carousel-slide">
-                <div class="image-container">
-                    <img src="img/xp5.png" alt="Image 3">
-                </div>
-                <div class="image-container">
-                    <img src="img/xp6.png" alt="Image 4">
+                    <img src="img/Documents-2.png" alt="Image 2">
                 </div>
             </div>
             <div class="carousel-slide">
                 <div class="image-container">
-                    <img src="img/xp2.png" alt="Image 5">
+                    <img src="img/Documents-3.png" alt="Image 3">
                 </div>
                 <div class="image-container">
-                    <img src="img/xp3.png" alt="Image 6">
+                    <img src="img/Documents-4.png" alt="Image 4">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-5.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-6.png" alt="Image 6">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-7.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-8.png" alt="Image 6">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-9.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-10.png" alt="Image 6">
                 </div>
             </div>
         </div>
@@ -298,8 +329,9 @@
     </div>
 
     <?php include 'footer.html';?>
-    <script src="why.js"></script>
-    <script src="from2.js"></script>
-    
+
+    <script src="js/why.js"></script>
+    <script src="js/from2.js"></script>
+   
 </body>
 </html>

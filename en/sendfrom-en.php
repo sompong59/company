@@ -15,7 +15,7 @@
     <div class="form-container">
         <h2>Request a Free Quote</h2>
 
-        <form action="../contact.php" method="POST" enctype="multipart/form-data" id="contactForm">
+        <form action="../contact.php" method="POST" enctype="multipart/form-data" id="contactForm" novalidate>
             <div class="language-selection">
                 <div class="input-group">
                     <label>Source Language <span class="required">*</span></label>
@@ -43,6 +43,7 @@
                         <option value="Other">Other</option>
                     </select>
                 </div>
+                
             </div>
             <div class="input-group">
                 <label>Service Type <span class="required">*</span></label>
@@ -127,7 +128,7 @@
 
     try {
         const formData = new FormData(this);
-        const response = await fetch('contact.php', {
+        const response = await fetch('../contact.php', {
             method: 'POST',
             body: formData
         });

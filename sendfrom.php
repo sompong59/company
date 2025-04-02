@@ -5,6 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title><?php echo $pageTitle; ?></title>
+    <link rel="shortcut icon" href="img/logo.jpeg" type="">
     <link rel="stylesheet" href="css/sendfrom.css">
     <link rel="stylesheet" href="css/social-buttons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
@@ -15,7 +16,7 @@
     <div class="form-container">
         <h2>ຂໍໃບສະເໜີລາຄາຟຣີ</h2>
 
-        <form action="contact.php" method="POST" enctype="multipart/form-data" id="contactForm">
+        <form action="contact.php" method="POST" enctype="multipart/form-data" id="contactForm" novalidate>
             <div class="language-selection">
                 <div class="input-group">
                     <label>ເລືອກພາສາຕົ້ນສະບັບ <span class="required">*</span></label>
@@ -116,12 +117,12 @@
 
     // ກວດສອບຟອມ
     if (!this.name.value || !this.email.value || !this.phoneNamber.value || !this.originalLanguage.value || !this.targetLanguage.value || !this.serviceType.value) {
-        errorMessage.textContent = 'ກະລຸນາປ້ອນຂໍ້ມູນໃຫ້ຄົບຖ້ວນ.';
-        errorModal.style.display = 'block';
-        submitButton.disabled = false;
-        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຖ້າກວດສອບບໍ່ຜ່ານ
-        return;
-    }
+    errorMessage.textContent = 'ກະລຸນາຕື່ມຂໍ້ມູນໃຫ້ຄົບຖ້ວນ..'; // ແຖວທີ່ແກ້ໄຂ
+    errorModal.style.display = 'block';
+    submitButton.disabled = false;
+    loadingIndicator.style.display = 'none';
+    return;
+}
 
     try {
         const formData = new FormData(this);

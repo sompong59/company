@@ -52,26 +52,40 @@
         <div class="carousel-track">
             <div class="carousel-slide">
                 <div class="image-container">
-                    <img src="img/xp2.png" alt="Image 1">
+                    <img src="img/Documents-1.png" alt="Image 1">
                 </div>
                 <div class="image-container">
-                    <img src="img/xp6.png" alt="Image 2">
-                </div>
-            </div>
-            <div class="carousel-slide">
-                <div class="image-container">
-                    <img src="img/xp5.png" alt="Image 3">
-                </div>
-                <div class="image-container">
-                    <img src="img/xp6.png" alt="Image 4">
+                    <img src="img/Documents-2.png" alt="Image 2">
                 </div>
             </div>
             <div class="carousel-slide">
                 <div class="image-container">
-                    <img src="img/xp2.png" alt="Image 5">
+                    <img src="img/Documents-3.png" alt="Image 3">
                 </div>
                 <div class="image-container">
-                    <img src="img/xp3.png" alt="Image 6">
+                    <img src="img/Documents-4.png" alt="Image 4">
+                </div>
+            </div>
+            <div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-5.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-6.png" alt="Image 6">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-7.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-8.png" alt="Image 6">
+                </div>
+            </div><div class="carousel-slide">
+                <div class="image-container">
+                    <img src="img/Documents-9.png" alt="Image 5">
+                </div>
+                <div class="image-container">
+                    <img src="img/Documents-10.png" alt="Image 6">
                 </div>
             </div>
         </div>
@@ -82,6 +96,8 @@
     </div>
 
     <?php include 'footer.html';?>
-    <script src="script.js"></script>
+    <!-- <script src="script.js"></script> -->
+    <script src="js/why.js"></script>
+
 </body>
 </html>
