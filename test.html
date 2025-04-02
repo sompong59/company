@@ -316,45 +316,42 @@ textarea {
                 <textarea name="text" rows="5" placeholder="ກະລຸນາແຈ້ງຄວາມຕ້ອງການຂອງທ່ານ ເຊັ່ນ ຈຸດປະສົງຂອງການໃຊ້ຄໍາແປ ຯລຯ"></textarea>
             </div>
             <button class="submit-button" type="submit" id="submitButton">ສົ່ງຂໍ້ມູນ</button>
-            <div id="loadingIndicator" style="display: none;">ກຳລັງສົ່ງ...</div>
-        </form>
-
-        <div id="successModal" class="popup-modal" style="display: none;">
-            <div class="modal-body">
-                <p id="modalMessage"></p>
-                <button id="successModalButton">ສຳເລັດ</button>
+            <div id="successModal" class="popup-modal" style="display: none;">
+                <div class="modal-body">
+                    <p id="modalMessage"></p>
+                    <div id="loadingIndicator" style="display: none;">ກຳລັງໂຫຼດ...</div>
+                    <button id="successModalButton">ສຳເລັດ</button>
+                </div>
             </div>
-        </div>
-
-        <div id="errorModal" class="popup-modal" style="display: none;">
-            <div class="modal-body">
-                <p id="errorMessage"></p>
-                <button id="errorModalButton">ລອງໃໝ່ອີກຄັ້ງ</button>
+            
+            <div id="errorModal" class="popup-modal" style="display: none;">
+                <div class="modal-body">
+                    <p id="errorMessage"></p>
+                    <div id="loadingIndicatorError" style="display: none;">ກຳລັງໂຫຼດ...</div>
+                    <button id="errorModalButton">ລອງໃໝ່ອີກຄັ້ງ</button>
+                </div>
             </div>
-        </div>
-    </div>
     <?php include 'footer.html';?>
     <script>
        document.getElementById('contactForm').addEventListener('submit', async function(event) {
     event.preventDefault();
     const submitButton = document.getElementById('submitButton');
-    const loadingIndicator = document.getElementById('loadingIndicator');
     const successModal = document.getElementById('successModal');
     const errorModal = document.getElementById('errorModal');
     const modalMessage = document.getElementById('modalMessage');
     const errorMessage = document.getElementById('errorMessage');
     const successModalButton = document.getElementById('successModalButton');
     const errorModalButton = document.getElementById('errorModalButton');
+    const loadingIndicatorSuccess = document.getElementById('loadingIndicator');
+    const loadingIndicatorError = document.getElementById('loadingIndicatorError');
 
     submitButton.disabled = true;
-    loadingIndicator.style.display = 'block'; // ສະແດງ loadingIndicator ກ່ອນ
 
     // ກວດສອບຟອມ
     if (!this.name.value || !this.email.value || !this.phoneNamber.value || !this.originalLanguage.value || !this.targetLanguage.value || !this.serviceType.value) {
         errorMessage.textContent = 'ກະລຸນາປ້ອນຂໍ້ມູນໃຫ້ຄົບຖ້ວນ.';
         errorModal.style.display = 'block';
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຖ້າກວດສອບບໍ່ຜ່ານ
         return;
     }
 
@@ -372,18 +369,25 @@ textarea {
         const data = await response.json();
 
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຫຼັງຈາກ fetch ສຳເລັດ
 
         if (data.success) {
+            loadingIndicatorSuccess.style.display = 'block'; // ສະແດງ loadingIndicator ໃນ successModal
             modalMessage.textContent = data.message;
-            successModal.style.display = 'block';
+            setTimeout(() => {
+                loadingIndicatorSuccess.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຫຼັງຈາກ 1 ວິນາທີ
+                successModal.style.display = 'block';
+            }, 1000); // 1 ວິນາທີ
             successModalButton.onclick = function() {
                 successModal.style.display = 'none';
             };
             this.reset();
         } else {
+            loadingIndicatorError.style.display = 'block'; // ສະແດງ loadingIndicator ໃນ errorModal
             errorMessage.textContent = data.message || 'ເກີດຂໍ້ຜິດພາດ. ກະລຸນາລອງໃໝ່.';
-            errorModal.style.display = 'block';
+            setTimeout(() => {
+                loadingIndicatorError.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຫຼັງຈາກ 1 ວິນາທີ
+                errorModal.style.display = 'block';
+            }, 1000); // 1 ວິນາທີ
             errorModalButton.onclick = function() {
                 errorModal.style.display = 'none';
             };
@@ -391,9 +395,12 @@ textarea {
     } catch (error) {
         console.error('Error:', error);
         submitButton.disabled = false;
-        loadingIndicator.style.display = 'none'; // ເຊື່ອງ loadingIndicator ເມື່ອເກີດຂໍ້ຜິດພາດ
+        loadingIndicatorError.style.display = 'block'; // ສະແດງ loadingIndicator ໃນ errorModal
         errorMessage.textContent = 'ເກີດຂໍ້ຜິດພາດ. ກະລຸນາລອງໃໝ່.';
-        errorModal.style.display = 'block';
+        setTimeout(() => {
+            loadingIndicatorError.style.display = 'none'; // ເຊື່ອງ loadingIndicator ຫຼັງຈາກ 1 ວິນາທີ
+            errorModal.style.display = 'block';
+        }, 1000); // 1 ວິນາທີ
         errorModalButton.onclick = function() {
             errorModal.style.display = 'none';
         };

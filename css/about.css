@@ -1,174 +1,162 @@
 @import url('https://fonts.googleapis.com/css2?family=Noto+Sans+Lao+Looped:wght@100..900&display=swap');
 
-body {
-    background-color: #e0f2fe;
+.grid-container {
     font-family: "Noto Sans Lao Looped", sans-serif;
-    margin: 0;
-    padding: 0;
-    display: flex;
-    flex-direction: column; /* ຈັດລຽງເນື້ອຫາຕາມແນວຕັ້ງ */
-    min-height: 100vh;
-    background-image: url('background-pattern.png');
-    background-size: cover;
-    background-attachment: fixed; /* ຮັກສາພື້ນຫຼັງໃຫ້ຢູ່ກັບທີ່ */
-}
-
-
-.about-section {
-    background-color: white;
+    display: flex; /* ປ່ຽນເປັນ flexbox */
+    background-color: rgb(255, 255, 255);
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
     border-radius: 8px;
-    padding: 40px;
+    padding: 20px;
+    width: 85%;
    
-    width: 90%; /* ເພີ່ມຂະໜາດກ່ອງໃຫ້ກວ້າງຂຶ້ນ */
-    max-width: 1200px; /* ເພີ່ມຂະໜາດສູງສຸດ */
-    margin: 20px auto; /* ຈັດໃຫ້ຢູ່ກາງຕາມແນວນອນ ແລະ ມີ margin ດ້ານເທິງ/ລຸ່ມ */
-    box-sizing: border-box; /* ໃຫ້ padding ແລະ border ລວມເຂົ້າໃນ width */
-}
-
-.image-box img {
-    max-width: 90%;
-    height: auto;
-    margin-right: 30px;
-}
-.container h2 {
+    margin: 20px auto;
+    box-sizing: border-box;
+    align-items: flex-start; /* ຈັດລາຍການໃຫ້ຢູ່ດ້ານເທິງ */
     color: #333;
-    margin-bottom: 20px;
-    text-align: left; /* ຈັດຂໍ້ຄວາມຫົວຂໍ້ໄວ້ກັບການຈັດລຽງ */
-    font-size: 2rem;
-    font-weight: 700;
-    margin-bottom: 0;
 }
 
-
-.container p {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 30px;
-    text-align: left; /* ຈັດຂໍ້ຄວາມເນື້ອຫາໄວ້ຊ້າຍ */
-    font-size: 1.1rem;
-}
-
-.col-md-6 h2 {
-    color: #333;
-    text-align: left; /* ຈັດຂໍ້ຄວາມຫົວຂໍ້ໄວ້ກັບການຈັດລຽງ */
-    margin-bottom: 0;
-   
-}
-.details-box p {
-    color: #666;
-    line-height: 1.6;
-    margin-bottom: 10px;
-    text-align: left; /* ຈັດຂໍ້ຄວາມເນື້ອຫາໄວ້ຊ້າຍ */
-    font-size: 1.1rem;
-
-}
-
-.button-primary {
-    background-color: #007bff;
-    color: white;
-    padding: 12px 24px;
-    border: none;
-    border-radius: 10px;
-    cursor: pointer;
-    text-decoration: none;
-}
-
-.button-primary:hover {
-    background-color: #0056b3;
-}
-
-
-.text-center {
-    text-align: left; /* ປ່ຽນເປັນຈັດຂໍ້ຄວາມຊ້າຍ */
-}
-
-.row {
-    display: flex;
-    align-items: flex-start;
-}
-
-.col-md-6 {
-    flex: 1;
-    display: flex; /* ເພີ່ມ flex container ເພື່ອຈັດລຽງເນື້ອຫາ */
-    flex-direction: column; /* ຈັດລຽງເນື້ອຫາຕາມແນວຕັ້ງ */
-}
-
-/* ເພີ່ມ media queries ເພື່ອໃຫ້ເວັບໄຊຕອບສະໜອງ */
-@media (max-width: 768px) {
-    .about-section {
-        width: 95%; /* ປັບຂະໜາດກ່ອງໃຫ້ນ້ອຍລົງໃນໜ້າຈໍຂະໜາດນ້ອຍ */
-        padding: 20px;
-    }
-
-    .image-box img {
-        max-width: 100%; /* ເຮັດໃຫ້ຮູບເຕັມຄວາມກວ້າງ */
-        margin-right: 0;
-        margin-bottom: 20px;
-    }
-
-    .row {
-        flex-direction: column; /* ປ່ຽນເປັນຈັດລຽງຕາມແນວຕັ້ງໃນໜ້າຈໍຂະໜາດນ້ອຍ */
-    }
-}
-
-/* ... CSS ອື່ນໆ ... */
-
-/* ... CSS ອື່ນໆ ... */
-
-/* ... CSS ອື່ນໆ ... */
-
-.details-box {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.image-box {
+    flex: 1; /* ເອົາເຄິ່ງໜຶ່ງຂອງພື້ນທີ່ */
+    padding: 0; /* ເພີ່ມຊ່ອງຫວ່າງທາງຂວາຂອງຮູບ */
+  
   
 }
 
+.image-box img {
+    width: 100%;
+    height: auto;
+    animation: bounce 6s infinite ease-in-out; /* ປ່ຽນ 2s ເປັນ 4s */
+   
+   
+   
+}
+
+.text-content {
+    flex: 2; /* ໃຫ້ text-content ເອົາ 2 ສ່ວນ, ເຮັດໃຫ້ກວ້າງກວ່າ image-box */
+    margin-left: 30px;
+    margin-right: 20px;
+}
+
+.text-content h2 {
+    margin-bottom: 10px;
+}
+
+.text-content p {
+    margin-bottom: 30px;
+    text-align: justify;
+  word-spacing: 0;
+  hyphens: auto;
+  font-size: 1.1em;
+}
+
+.contact-info {
+    margin-top: 30px;
+    display: flex; /* ເຮັດໃຫ້ປຸ່ມ ແລະ ໄອຄອນຢູ່ໃນແຖວດຽວກັນ */
+    align-items: center; /* ຈັດໃຫ້ລາຍການຢູ່ກາງຕາມແນວຕັ້ງ */
+    justify-content: left; /* ຈັດໃຫ້ລາຍການຢູ່ກາງຕາມແນວນອນ */
+}
+
 .social-icons {
-    margin-top: 20px;
     display: flex;
-    justify-content: center;
+    margin-left: 20px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງປຸ່ມ ແລະ ໄອຄອນ */
 }
 
-.social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: #f0f0f0;
-    border-radius: 50%;
-    margin: 0 15px;
-    color: #333;
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
+.social-icons a {
+      display: flex; /* ເຮັດໃຫ້ແທັກ a ເປັນ flex container */
+        align-items: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວຕັ້ງ */
+        justify-content: center; /* ຈັດໄອຄອນໃຫ້ຢູ່ກາງໃນແນວນອນ */
+        width: 60px;
+        height: 60px;
+        font-size: 1.5em;
+        background-color: #00a0e9;
+        border-radius: 50%;
+        transition: background-color 0.3s ease;
+        margin-right: 20px; /* ເພີ່ມຊ່ອງຫວ່າງລະຫວ່າງໄອຄອນ */
+        text-decoration: none;
+        color:white;
+}
+.button-primary{
+    display: inline-block; /* ເຮັດໃຫ້ແທັກ a ເປັນ block */
+    background-color: #00a0e9; /* ສີພື້ນຫຼັງປຸ່ມ */
+    color: white; /* ສີຕົວອັກສອນ */
+    padding: 10px 20px; /* ຂະໜາດ padding ພາຍໃນປຸ່ມ */
+    text-decoration: none; /* ເອົາ underline ອອກ */
+    border-radius: 5px; /* ເພີ່ມມຸມມົນ */
+    font-size: 16px; /* ຂະໜາດຕົວອັກສອນ */
+    font-weight: bold;
+    transition: background-color 0.3s ease; /* ເພີ່ມ transition ເມື່ອ hover */
+
+}
+.button-primary:hover{
+    background-color: rgba(20, 205, 252, 0.473);
+
+}
+.social-icons a:hover{
+    background-color: rgba(20, 205, 252, 0.473);
+
 }
 
-.social-icon:hover {
-    transform: translateY(-5px); /* ເດັ້ງໄອຄອນຂຶ້ນ */
+@media (max-width: 768px) {
+    .grid-container {
+        flex-direction: column;
+        align-items: stretch;
+         width: 100%;
+      
+    }
+
+    .image-box {
+        padding-right: 0;
+        margin-bottom: 20px;
+    }
+
+    .text-content {
+        flex: auto;
+        margin:0;
+    }
+
+    .contact-info {
+        flex-direction: row; /* ໃຫ້ເປັນແຖວດຽວກັນ */
+    }
+
+    .contact-button {
+        padding: 8px 10px; /* ຫຼຸດ padding ຂອງປຸ່ມ */
+        font-size: 14px; /* ຫຼຸດຂະໜາດຕົວອັກສອນຂອງປຸ່ມ */
+        
+    }
+
+    .social-icons {
+        margin-left: 10px; /* ຫຼຸດ margin ຊ້າຍ */
+    }
+
+    .social-icons a {
+        width: 45px; /* ຫຼຸດຂະໜາດວົງມົນ */
+        height: 45px; /* ຫຼຸດຂະໜາດວົງມົນ */
+        font-size: 20px; /* ຫຼຸດຂະໜາດໄອຄອນ */
+        margin-right: 5px; /* ຫຼຸດ margin ຂວາ */
+    }
 }
 
-.social-icon:hover i {
-    color: #fff; /* ປ່ຽນສີໄອຄອນເປັນສີຂາວເມື່ອເມົາໄປຊີ */
-}
+/* Media queries ສໍາລັບໜ້າຈໍຂະໜາດນ້ອຍກວ່າ 480px */
+@media (max-width: 480px) {
+    .contact-info {
+        flex-direction: column; /* ຈັດລາຍການຕິດຕໍ່ເປັນຖັນ */
+    }
 
-.social-icon:hover {
-    background-color: #25D366; /* ສີຂຽວສໍາລັບ WhatsApp */
+    .social-icons {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }
-
-.social-icon:nth-child(2):hover {
-    background-color: #1877F2; /* ສີຟ້າສໍາລັບ Facebook */
+@keyframes bounce { /* ສ້າງ animation */
+    0%, 100% {
+        transform: translateY(0);
+    }
+    50% {
+        transform: translateY(-20px); /* ປັບຄວາມສູງຂອງການເດັ້ງ */
+    }
 }
-
-.social-icon:nth-child(3):hover {
-    background-color: #D44638; /* ສີແດງສໍາລັບ Email */
+iframe {
+  width: 100%; /* ປັບຂະໜາດວິດີໂອໃຫ້ກວ້າງເຕັມຄອນເທນເນີ */
+  height: 600px ; /* ຮັກສາອັດຕາສ່ວນຂອງວິດີໂອ */
+  border-radius: 5px;
 }
-
-.social-icon:nth-child(4):hover {
-    background-color: #000000; /* ສີດໍາສໍາລັບ TikTok */
-}
-.social-icon i {
-    font-size: 20px; /* ເພີ່ມຂະໜາດໄອຄອນເປັນ 30px */
-}
-/* ຖ້າເຈົ້າມີໄອຄອນອື່ນໆ, ເພີ່ມ CSS ທີ່ນີ້ */
