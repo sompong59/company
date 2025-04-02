@@ -17,7 +17,7 @@
 
     <div class="grid-container">
         <div class="image-box">
-            <img src="img/bodytrans.png" alt="ກ່ຽວກັບບໍລິສັດເທັກອາດ">
+            <iframe  src="https://www.youtube.com/embed/9jbgtasbWtc?si=dy6H_P_lxqoORV6V" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
         </div>
         <div class="text-content">
             <h2>ກ່ຽວກັບ <span>ບໍລິສັດເທັກອາດ</span></h2>
@@ -37,10 +37,10 @@
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">ຕິດຕໍ່ພວກເຮົາ</a>
                 <div class="social-icons">
-                    <a href="#" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="#" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:your@email.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="#" class="social-icon" title="TikTok"><i class="fab fa-tiktok"></i></a>
+                    <a href="https://wa.me/85602052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
