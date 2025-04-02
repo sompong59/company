@@ -28,7 +28,8 @@
             <img src="../img/trans.png" alt="Logo">
         </div>
         <h1>"Accuracy, Trust, and Speed: Let us translate for you."</h1>
-        <button class="consultation-btn">Initial Consultation</button>
+        <a href="maps-en.php"> <button class="consultation-btn">Initial Consultation</button></a>
+       
         <!-- <div class="hero-social-icons">
             <a href="#"><i class="hero-icon-instagram"></i></a>
             <a href="#"><i class="hero-icon-facebook"></i></a>
@@ -67,78 +68,89 @@
             </div>
         </div>
     </div>
-<div class="service-container">
+    <div class="service-container">
     <div class="translate-top-section">
-        <div class="translate-top-section-content">
-            <h2>What is Certified Document Translation?</h2>
-            <p>Certified document translation is for documents used in official settings where the recipient requires assurance of accuracy and completeness. These documents are often used in various locations such as immigration offices, government institutions, and other local and international venues.</p>
+    <div class="translate-top-section-content">
+    <h2>What is Certified Document Translation?</h2>
+    <p>Certified document translation is intended for documents used in official capacities, where the recipient requires confirmation that the translation is accurate and complete. Such documents are frequently used in various locations, such as immigration offices, government agencies, and other places, both locally and internationally.</p>
+</div>
         </div>
-    </div>
     <div class="containercard">
+       
         <div class="service-card">
-            <h2>Common Document Types</h2>
+            <h2>General Documents</h2>
+           
             <ul>
-                <li><i class="fas fa-check-circle"></i> ID Card</li>
-                <li><i class="fas fa-check-circle"></i> Family Book</li>
-                <li><i class="fas fa-check-circle"></i> Business Registration Certificate</li>
-                <li><i class="fas fa-check-circle"></i> Investment License</li>
-                <li><i class="fas fa-check-circle"></i> Address Certificate</li>
-                <li><i class="fas fa-check-circle"></i> Marriage Certificate</li>
-                <li><i class="fas fa-check-circle"></i> Application Form</li>
-                <li><i class="fas fa-check-circle"></i> Various Licenses</li>
-                <li><i class="fas fa-check-circle"></i> Tax Invoice</li>
-                <li><i class="fas fa-check-circle"></i> Employee Certificate</li>
-            </ul>
-            <button class="quote-button">Get a Free Quote</button>
-        </div>
-        <div class="service-card">
-            <h2>Various Form Types</h2>
-            <ul>
-                <li><i class="fas fa-check-circle"></i> Criminal Record Check</li>
-                <li><i class="fas fa-check-circle"></i> Student CV</li>
-                <li><i class="fas fa-check-circle"></i> Employee CV</li>
-                <li><i class="fas fa-check-circle"></i> Birth Certificate</li>
-                <li><i class="fas fa-check-circle"></i> Criminal Record Check</li>
-                <li><i class="fas fa-check-circle"></i> Guardianship Certificate</li>
-                <li><i class="fas fa-check-circle"></i> Guarantee Letter</li>
-                <li><i class="fas fa-check-circle"></i> Government Document Forms</li>
-                <li><i class="fas fa-check-circle"></i> Company Document Forms</li>
-                <li><i class="fas fa-check-circle"></i> Domestic and International Visa Application Forms</li>
-            </ul>
-            <button class="quote-button">Get a Free Quote</button>
-        </div>
-        <div class="service-card">
-            <h2>Contract Document Types</h2>
-            <ul>
-                <li><i class="fas fa-check-circle"></i> Project Concession Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Power Purchase Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Shareholder Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Share Purchase Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Company Bylaws</li>
-                <li><i class="fas fa-check-circle"></i> Service Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Consultant Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Construction Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Project Development Agreement</li>
-                <li><i class="fas fa-check-circle"></i> Memorandum of Understanding</li>
-            </ul>
-            <button class="quote-button">Get a Free Quote</button>
-        </div>
-        <div class="service-card">
-            <h2>Other Document Types</h2>
-            <ul>
-                <li><i class="fas fa-check-circle"></i> Preface</li>
-                <li><i class="fas fa-check-circle"></i> Abstract</li>
-                <li><i class="fas fa-check-circle"></i> Menu</li>
-                <li><i class="fas fa-check-circle"></i> Product/Service Manual</li>
-                <li><i class="fas fa-check-circle"></i> Advertising Media</li>
-                <li><i class="fas fa-check-circle"></i> Meeting Minutes</li>
+                <li><i class="fas fa-check-circle"></i> Identity Card</li>
+                <li><i class="fas fa-check-circle"></i> Family Registration Book</li>
+
                 <li><i class="fas fa-check-circle"></i> Passport</li>
-                <li><i class="fas fa-check-circle"></i> Invoice</li>
-                <li><i class="fas fa-check-circle"></i> Books</li>
-                <li><i class="fas fa-check-circle"></i> Documents as per customer’s request</li>
+                <li><i class="fas fa-check-circle"></i> Driver's license</li>
+                <li><i class="fas fa-check-circle"></i> Tax report</li>
+                <li><i class="fas fa-check-circle"></i> Graduation certificate</li>
+                <li><i class="fas fa-check-circle"></i> Purchase order</li>
+                <li><i class="fas fa-check-circle"></i> Delivery note / Shipping invoice</li>
+                <li><i class="fas fa-check-circle"></i> Advertising and Marketing </li>
+                <li><i class="fas fa-check-circle"></i> Any documents that need translation</li>
             </ul>
-            <button class="quote-button">Get a Free Quote</button>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
+        <div class="service-card">
+            <h2>Certification </h2>
+           
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Enterprise Registration Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Investment License </li>
+                <li><i class="fas fa-check-circle"></i> Business Operation License</li>
+                <li><i class="fas fa-check-circle"></i> Proposal Letter</li>
+                <li><i class="fas fa-check-circle"></i> Proof of Address</li>
+                <li><i class="fas fa-check-circle"></i> Marriage Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Tax payment Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Employee Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Birth Certificate</li>
+                <li><i class="fas fa-check-circle"></i> Criminal Record</li>
+            </ul>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
+        </div>
+        <div class="service-card">
+            <h2>Legal documents</h2>
+            
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Minute of Meeting</li>
+                <li><i class="fas fa-check-circle"></i> AOA</li>
+                <li><i class="fas fa-check-circle"></i> Concession Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Power Purchase Agreement  </li>
+                <li><i class="fas fa-check-circle"></i> Cooperation Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Shareholder Agreement</li>
+                <li><i class="fas fa-check-circle"></i> Sale Shareholder Agreement </li>
+                <li><i class="fas fa-check-circle"></i> Service Contract </li>
+                <li><i class="fas fa-check-circle"></i> Consultation Contract </li>
+                <li><i class="fas fa-check-circle"></i> Contractor Contract</li>
+                <li><i class="fas fa-check-circle"></i> Project development Agreement (PDA)</li>
+            </ul>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
+        </div>
+        <div class="service-card">
+            <h2>Certification</h2>
+            
+            <ul>
+                <li><i class="fas fa-check-circle"></i> Student Curriculum Vitae </li>
+                <li><i class="fas fa-check-circle"></i> Employee Curriculum Vitae </li>
+                <li><i class="fas fa-check-circle"></i> Government Application Form</li>
+                <li><i class="fas fa-check-circle"></i> Company Application Form</li>
+                <li><i class="fas fa-check-circle"></i> Visa Application Form in domestic and Aboard</li>
+                <li><i class="fas fa-check-circle"></i> Registration form</li>
+                <li><i class="fas fa-check-circle"></i> Job application form</li>
+                <li><i class="fas fa-check-circle"></i> Student application form / Admission form</li>
+                <li><i class="fas fa-check-circle"></i> Evaluation form / Assessment form</li>
+                <li><i class="fas fa-check-circle"></i> Contract form / Agreement form</li>
+
+            </ul>
+            <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
+            
+        </div>
+       
+    
     </div>
 </div>
 
@@ -176,41 +188,38 @@
     </div>
 </nav>
 
-<div class="div">
-    <h2>Document Translation Process</h2>
-    <p class="pralagrap3">The document translation process consists of 4 steps, detailed as follows:</p>
-</div>
-
+<h2>Translation Procedures</h2>
+<p class="pralagrap3">The document translation procedure comprises 4 stages, with the following details:</p></div>   
 <div class="card-container">
-    <div class="card">
-        <span class="card-number">1</span>
-        <img src="../img/111.png" alt="Image 1" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text"><strong>Initial Inquiry:</strong><br> General information inquiry between the client and the company.</p>
+        <div class="card">
+            <span class="card-number">1</span>
+            <img src="../img/111.png" alt="Image 1" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text"><strong>General Information:</strong><br> Ask any information between Clients and Company. </p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="card-number">2</span>
+            <img src="../img/22.png" alt="Image 2" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text"><strong>Price Evaluation:</strong><br>Clients should submit documents for translation to our staff for review and pricing. A deadline will be set once the price is confirmed. Before starting the translation, clients must pay at least 70% in advance or sign a contract.</p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="card-number">3</span>
+            <img src="../img/33.png" alt="Image 3" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text"><strong>Certification and Confirmation :</strong><br> We will provide the translated version to clients for review, allowing them to check important words or phrases, such as names, symbols, or company details. If any issues are found, we will make the necessary revisions. Once finalized, the translation will be 100% accurate and will be stamped with our company’s licensed translation seal.</p>
+            </div>
+        </div>
+        <div class="card">
+            <span class="card-number">4</span>
+            <img src="../img/44.png" alt="Image 4" class="card-img-top">
+            <div class="card-body">
+                <p class="card-text"><strong>Delivery to Clients:</strong><br> Before sending the original files or scanned copies to clients, they must pay 30% of the remaining balance.</p>
+            </div>
         </div>
     </div>
-    <div class="card">
-        <span class="card-number">2</span>
-        <img src="../img/22.png" alt="Image 2" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text"><strong>Price Estimation:</strong><br> The client sends documents for the company to review, estimate the translation price, determine the exact completion time, and make a 30% deposit before agreeing to translate.</p>
-        </div>
-    </div>
-    <div class="card">
-        <span class="card-number">3</span>
-        <img src="../img/33.png" alt="Image 3" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text"><strong>Accuracy Verification:</strong><br> After the company completes the document translation, it is sent to the client for review to verify any unclear points for complete accuracy and 100% usability.</p>
-        </div>
-    </div>
-    <div class="card">
-        <span class="card-number">4</span>
-        <img src="../img/44.png" alt="Image 4" class="card-img-top">
-        <div class="card-body">
-            <p class="card-text"><strong>Document Handover:</strong><br> Before handing over or sending the documents to the client, the client must pay the remaining 70% before receiving the accurate translation from the company.</p>
-        </div>
-    </div>
-</div>
 
 <h2>Examples of Completed Translated Documents</h2>
 <div class="carousel-container">
