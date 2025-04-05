@@ -33,7 +33,6 @@
 .team-member {
     background-color: #002b64;
     color: white;
-    
     width: 30%;
     height: 400px;
     margin: 15px;
@@ -87,7 +86,12 @@
 
 .team-member-front {
     background-color: #002b64;
-    padding-bottom: 0;
+    
+}
+.team-member-front p{
+    margin:0;
+    padding: 0;
+    
 }
 
 .team-member-back {
@@ -127,11 +131,11 @@
     
 }
 .team-member-social-icons {
-    margin-top: 0; /* Push social icons to the bottom */
+     
     width: 100%;
     display: flex;
     justify-content:center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 .team-member-social-icons a {
     color: white;

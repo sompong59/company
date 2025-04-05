@@ -20,7 +20,7 @@
         <form action="../contact.php" method="POST" enctype="multipart/form-data" id="contactForm" novalidate>
             <div class="language-selection">
                 <div class="input-group">
-                    <label>Source Language <span class="required">*</span></label>
+                    <label>Original Language <span class="required">*</span></label>
                     <select type="text" name="originalLanguage">
                         <option value="Lao">Lao</option>
                         <option value="English">English</option>
@@ -33,7 +33,7 @@
                     </select>
                 </div>
                 <div class="input-group">
-                    <label>Target Language <span class="required">*</span></label>
+                    <label>Language Service <span class="required">*</span></label>
                     <select type="text" name="targetLanguage">
                         <option value="English">English</option>
                         <option value="Lao">Lao</option>
@@ -50,8 +50,8 @@
             <div class="input-group">
                 <label>Service Type <span class="required">*</span></label>
                 <select type="text" name="serviceType">
-                    <option value="Rush Translation">Rush Translation</option>
-                    <option value="Regular Translation">Regular Translation</option>
+                    <option value="Rush Translation">Urgently</option>
+                    <option value="Regular Translation">Regulary</option>
                     <option value="Other">Other</option>
                 </select>
             </div>

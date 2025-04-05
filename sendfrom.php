@@ -78,7 +78,7 @@
                 <input type="text" name="subject" placeholder="ຫົວຂໍ້" required>
             </div>
             <div class="input-group">
-                <label for="message">ຂໍ້ຄວາມ</label>
+                <label for="message">ລາຍລະອຽດເພີ່ມເຕີ່ມ</label>
                 <textarea name="text" rows="5" placeholder="ກະລຸນາແຈ້ງຄວາມຕ້ອງການຂອງທ່ານ ເຊັ່ນ ຈຸດປະສົງຂອງການໃຊ້ຄໍາແປ ຯລຯ"></textarea>
             </div>
             <button class="submit-button" type="submit" id="submitButton">ສົ່ງຂໍ້ມູນ</button>

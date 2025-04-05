@@ -15,7 +15,7 @@
 <?php include 'header-en.html';?>
     <div class="div">
 <h2>Translation Procedures</h2>
-<p class="pralagrap3">The document translation procedure comprises 4 stages, with the following details:</p></div>   
+<p class="pralagrap3">The document translation process consists of four stages, outlined as follows:</p></div>   
 <div class="card-container">
         <div class="card">
             <span class="card-number">1</span>
@@ -46,7 +46,7 @@
             </div>
         </div>
     </div>
-    <h2>Examples of Completed Translated Documents</h2>
+    <h2>An example for Translation Comptled</h2>
     <div class="carousel-container">
         <div class="carousel-track">
             <div class="carousel-slide">

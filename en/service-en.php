@@ -18,7 +18,7 @@
     <div class="translate-top-section">
     <div class="translate-top-section-content">
     <h2>What is Certified Document Translation?</h2>
-    <p>Certified document translation is intended for documents used in official capacities, where the recipient requires confirmation that the translation is accurate and complete. Such documents are frequently used in various locations, such as immigration offices, government agencies, and other places, both locally and internationally.</p>
+    <p>Translation and Certification of All Documents Service. Documents are translated from one language to another, such as from a local language to a foreign language. Each document is then signed and certified with an official stamp from our company.</p>
 </div>
         </div>
     <div class="containercard">
@@ -77,7 +77,7 @@
             <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
         <div class="service-card">
-            <h2>Certification</h2>
+            <h2>Application Form</h2>
             
             <ul>
                 <li><i class="fas fa-check-circle"></i> Student Curriculum Vitae </li>
@@ -101,7 +101,7 @@
 </div>
 
 <nav class="language-selector">
-    <h2>Supports Multiple Language Translations</h2>
+    <h2>Comprehensive Global Language Services</h2>
     <div class="language-container">
         <a href="lao.html" class="language-item">
             <img src="../img/Lao.png" alt="Lao Flag">

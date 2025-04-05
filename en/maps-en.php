@@ -1,4 +1,4 @@
-<?php $pageTitle = "ຂໍ້ມູນຕິດຕໍ່ບໍລິສັດເທັກອາດ"; ?>
+<?php $pageTitle = "Company contact information"; ?>
 <!DOCTYPE html>
 <html lang="la">
 <head>
@@ -16,18 +16,18 @@
 
 
 <div class="content-contact">
-<h2>Techart Company Contact Information</h2></div>
+<h2>For more information, please contact us using the details below.</h2></div>
 <div class="divider"></div>
     <div class="container">
         <div class="map">
             <iframe src="https://www.google.com/maps/embed?pb=!1m17!1m12!1m3!1d3794.4723258827953!2d102.62345037517925!3d18.003270682992742!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m2!1m1!2zMTjCsDAwJzExLjgiTiAxMDLCsDM3JzMzLjciRQ!5e0!3m2!1sth!2sla!4v1718777285790!5m2!1sth!2sla" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </div>
+            </div>
         <div class="contact-info">
             <div class="contact-item">
                 <div class="icon-contact"><i class="fas fa-mobile-alt"></i></div>
                 <div>
                 <h3>Call Us</h3>
-                <p>Our staff speaks both Lao and English.</p>
+                <p>We accommodate discussions in both Lao and English   .</p>
                     <p>020 5277 4279</p>
                     <p>020 5251 9665</p>
                 </div>
@@ -35,7 +35,7 @@
             <div class="contact-item">
                 <div class="icon-contact"><i class="fas fa-map-marker-alt"></i></div>
                 <div>
-                <h3>Our Office</h3>
+                <h3>Office Location</h3>
                 <p>Phon Savang Village, Alley 11, Chanthabouly District, Vientiane Capital</p>
     
                 </div>

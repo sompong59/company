@@ -26,7 +26,8 @@
                     <div class="team-member-front">
                         <img src="../img/t1.png" alt="Mr. Sonphet Chitthavong">
                         <h3>Mr. Sonphet Chitthavong</h3>            
-                        <p> " CEO "</p>
+                        <p> " Managing Director (CEO) "</p>
+                        <p> Master's degree </p>
                         <div class="team-member-social-icons">
                             <a href="#" class="fab fa-facebook-f"></a>
                             <a href="#" class="fab fa-whatsapp"></a>
@@ -38,10 +39,9 @@
                     <div class="team-member-back">
                         <ul>
                             <h4>Personal data</h4>
-                            <li>                           
-                                <p>" CEO "</p>
-            
-                            </li>
+                            <li>Managing Director (CEO) </li>
+                            <li>Master of Finance and Banking </li>
+                            <li>Bachelor of Art</li>
                         </ul>
                        
                     </div>
@@ -53,6 +53,7 @@
                     <img src="../img/t2.png" alt="Ms. Pinthong SOUKPHALEE">
                     <h3>Ms. Pinthong SOUKPHALEE</h3>
                     <p>" Manager "</p>
+                    <p> Bachelor's degree</p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -65,6 +66,9 @@
                     <ul>
                         <h4>Personal data</h4>
                         <li> " Manager " </li>
+                        <li>Bachelor's degree</li>
+                        <li>Major: ICT</li>
+
                         <!-- <li>Expertise: 10 years</li>
                         <li>Master's Degree</li>
                         <li>Major: Human Resource and Business Management</li>
@@ -81,6 +85,7 @@
                     <img src="../img/t3.png" alt="Mr. Alounna KHAMHOUNG">
                     <h3>Mr. Alounna KHAMHOUNG"</h3>
                     <p> " Lao - French "</p>
+                    <p>Doctoral degree</p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -110,6 +115,7 @@
                     <img src="../img/t4.png" alt="Mr. Chattava MATMANISONE">
                     <h3>Mr. Chattava MATMANISONE</h3>
                     <p>" Lao-English "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -137,6 +143,7 @@
                     <img src="../img/t5.png" alt="Mr. Bouakham KEOMIXAY">
                     <h3>Mr. Bouakham KEOMIXAY</h3>
                     <p> " Lao-Vietnamese "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -164,6 +171,7 @@
                     <img src="../img/t6.png" alt="Mr. Bouphanh YACHONGTOU">
                     <h3>Mr. Bouphanh YACHONGTOU</h3>
                     <p> " Lao - Chinese visa "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -191,6 +199,7 @@
                     <img src="../img/t7.png" alt="Mr. Thittanouxay LENGSAWATH">
                     <h3> Mr. Thittanouxay LENGSAWATH </h3>
                     <p>" Lao - Chinese visa "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -219,6 +228,7 @@
                     <img src="../img/t8.png" alt="Ms. Lamtiane KHOUTPHILAVANH">
                     <h3>Ms. Lamtiane KHOUTPHILAVANH </h3>
                     <p>  " Lao - Chinese visa "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -246,6 +256,7 @@
                     <img src="../img/t9.png" alt="Mr. Khamla SAE-EUNG">
                     <h3>Mr. Khamla SAE-EUNG </h3>
                     <p>  " Lao - English - Thai "</p>
+                    <p> Master's degree </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>

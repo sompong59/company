@@ -27,8 +27,8 @@
         <div class="company-logo">
             <img src="../img/trans.png" alt="Logo">
         </div>
-        <h1>"Accuracy, Trust, and Speed: Let us translate for you."</h1>
-        <a href="maps-en.php"> <button class="consultation-btn">Initial Consultation</button></a>
+        <h1>"Accruracy, trust, and speed"</h1>
+        <a href="maps-en.php"> <button class="consultation-btn">For more information</button></a>
        
         <!-- <div class="hero-social-icons">
             <a href="#"><i class="hero-icon-instagram"></i></a>
@@ -72,7 +72,8 @@
     <div class="translate-top-section">
     <div class="translate-top-section-content">
     <h2>What is Certified Document Translation?</h2>
-    <p>Certified document translation is intended for documents used in official capacities, where the recipient requires confirmation that the translation is accurate and complete. Such documents are frequently used in various locations, such as immigration offices, government agencies, and other places, both locally and internationally.</p>
+    <p>Translation and Certification of All Documents Service. 
+    Documents are translated from one language to another, such as from a local language to a foreign language. Each document is then signed and certified with an official stamp from our company.</p>
 </div>
         </div>
     <div class="containercard">
@@ -131,7 +132,7 @@
             <a href="sendfrom-en.php"> <button class="quote-button">Request a Free Quote</button></a>
         </div>
         <div class="service-card">
-            <h2>Certification</h2>
+            <h2>Application Form</h2>
             
             <ul>
                 <li><i class="fas fa-check-circle"></i> Student Curriculum Vitae </li>
@@ -154,7 +155,7 @@
     </div>
 </div>
 
-<h2>Supports Multiple Languages</h2>
+<h2>Comprehensive Global Language Services</h2>
 <nav class="language-selector">
     <div class="language-container">
         <a href="lao.html" class="language-item">
@@ -189,7 +190,7 @@
 </nav>
 
 <h2>Translation Procedures</h2>
-<p class="pralagrap3">The document translation procedure comprises 4 stages, with the following details:</p></div>   
+<p class="pralagrap3">The document translation process consists of four stages, outlined as follows:</p></div>   
 <div class="card-container">
         <div class="card">
             <span class="card-number">1</span>
@@ -221,7 +222,7 @@
         </div>
     </div>
 
-<h2>Examples of Completed Translated Documents</h2>
+<h2>An example for Translation Comptled</h2>
 <div class="carousel-container">
         <div class="carousel-track">
             <div class="carousel-slide">

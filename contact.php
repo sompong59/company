@@ -59,28 +59,27 @@ if (isset($_POST['originalLanguage'])    &&
         $mail->isSMTP();
         $mail->Host = 'smtp.gmail.com';
         $mail->SMTPAuth = true;
-        $mail->Username = 'aaop8054@gmail.com';
-        $mail->Password = 'ocpiocrrodwkdhoe';
+        $mail->Username = 'techart.translation@gmail.com';
+        $mail->Password = 'imex txlp ufeq mlsx';
         $mail->SMTPSecure = "ssl";
         $mail->Port = 465;
         $mail->setFrom($email, $name);
-        $mail->addAddress('aaop8054@gmail.com');
+        $mail->addAddress('techart.translation@gmail.com');
 
         $mail->isHTML(true);
         $mail->Subject = $subject;
         $mail->CharSet = 'UTF-8';
         $mail->Body = "
             <div style='font-family: \"Noto Sans Lao\", sans-serif;'>
-                <h3>ສະບາຍດີບໍລິສັດເທັກອາດຂ້າພະເຈົ້າສົນໃຈບໍລິການແປພາສາ</h3>
-                <p><strong>ພາສາຕົ້ນສະບັບ</strong>: $originalLanguage</p>
-                <p><strong>ພາສາເປົ້າໝາຍ</strong>: $targetLanguage</p>
-                <p><strong>ປະເພດການແປ</strong>: $serviceType</p>
-                <p><strong>ຂ້າພະເຈົ້າຊື່</strong>: $name</p>
-                <p><strong>Email</strong>: $email</p>
-                <p><strong>ເບີໂທ</strong>: $phoneNamber</p>
-                
-                <p><strong>ຂໍ້ຄວາມເພີ່ມເຕີມ</strong>: $text</p>
-                <h3>ເມືອທ່ານເຫັນຂໍ້ຄວາມນີ້ລົບກວນຕອບກັບຂ້າພະເຈົ້າດ້ວຍ</h3>
+                <h3 style='font-style: italic;color:green;' >ສະບາຍດີບໍລິສັດເທັກອາດ ຂ້າພະເຈົ້າສົນໃຈບໍລິການແປພາສາ (ຂ້າພະເຈົ້າຊື່: $name ) ລາຍລະອຽດດັ່ງນີ້: </h3>
+                <p><strong> Original Language (ພາສາຕົ້ນສະບັບ)</strong>: $originalLanguage</p>
+                <p><strong> Language Service (ພາສາທີຕ້ອງການແປ) </strong>: $targetLanguage</p>
+                <p><strong>Service Type (ປະເພດການແປ)</strong>: $serviceType</p>
+                <p><strong>My Name (ຊື່ຂອງຂ້ອຍ)</strong>: $name</p>
+                <p><strong>Email (ທີ່ຢູ່ອີເມວ)</strong>: $email</p>
+                <p><strong>Phone Number (ເບີໂທລະສັບ)</strong>: $phoneNamber</p>              
+                <p><strong>Message (ລາຍລະອຽດເພີ່ມເຕີ່ມ) </strong>: $text</p>
+                <h3 style='font-style: italic;color:green;'>ເມືອທ່ານເຫັນຂໍ້ຄວາມນີ້ລົບກວນຕອບກັບຂ້າພະເຈົ້າດ້ວຍ ຈາກ $name</h3>
             </div>
         ";
 
@@ -92,7 +91,7 @@ if (isset($_POST['originalLanguage'])    &&
         }
 
         $mail->send();
-        $response = ['success' => true, 'message' => 'ສົ່ງຂໍ້ຄວາມສຳເລັດ'];
+        $response = ['success' => true, 'message' => 'ສົ່ງຂໍ້ຄວາມສຳເລັດ (Message sent successfully.)'];
     } catch (Exception $e) {
         $response = ['success' => false, 'message' => 'Message could not be sent. Mailer Error: ' . $mail->ErrorInfo];
     }

@@ -5,7 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
-    <link rel="shortcut icon" href="css/logo.jpeg" type="ໂລໂກ">
+    <link rel="shortcut icon" href="img/logo.jpeg" type="ໂລໂກ">
     <link rel="stylesheet" href="css/team.css">
     <link rel="stylesheet" href="css/social-buttons.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
@@ -27,6 +27,7 @@
                     <img src="img/t1.png" alt="Mr. Sonphet Chitthavong">
                     <h3>ທ່ານ ສອນເພັດ ຈິດຕະວົງ</h3>            
                     <p> ອຳນວຍການ " CEO "</p>
+                    <p>ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -38,10 +39,12 @@
                 <div class="team-member-back">
                     <ul>
                         <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
-                        <li>                           
-                            <p>ອຳນວຍການບໍລິສັດເທັກອາດ</p>
-        
-                        </li>
+                        <li> ອຳນວຍການບໍລິສັດເທັກອາດ</li>
+                        <li> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ </li>
+                        <li>ສາຂາຮຽນ: ສາຂາການເງິນ-ການທະນາຄານ</li>
+                        <li> ລະດັບ ປະລິນຍາຕີ ສາຂາ ອັກສອນສາດ</li>
+                        
+
                     </ul>
                    
                 </div>
@@ -53,6 +56,7 @@
                 <img src="img/t2.png" alt="Ms. Pinthong SOUKPHALEE">
                 <h3>ນາງ ປິ່ນທອງ ສຸກຜາລີ</h3>
                 <p>" ຜູ້ຈັດການ "</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາຕີ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -65,10 +69,8 @@
                 <ul>
                     <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
                     <li> ຜູ້ຈັດການ </li>
-                    <!-- <li>Expertise: 10 years</li>
-                    <li>Master's Degree</li>
-                    <li>Major: Human Resource and Business Management</li>
-                    <li>Trading, Project and Investment, Hydro Power an</li> -->
+                    <li> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາຕີ </li>
+                    <li> ສາຂາຮຽນ: ສາຂາ ICT</li>
                    
                 </ul>
                 
@@ -81,6 +83,7 @@
                 <img src="img/t3.png" alt="Mr. Alounna KHAMHOUNG">
                 <h3>ທ່ານ ອາລຸນນາ ຄຳຮຸ່ງ</h3>
                 <p>ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ, ຟຣັ່ງ "</p>
+                <p>ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາເອກ </p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -109,7 +112,8 @@
             <div class="team-member-front">
                 <img src="img/t4.png" alt="Mr. Chattava MATMANISONE">
                 <h3>ທ່ານ ຈັດຕະວາ ມາດມະນີສອນ</h3>
-                <p>ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ອັງກິດ "</p>
+                <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ອັງກິດ "</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -138,6 +142,7 @@
                 <img src="img/t5.png" alt="Mr. Bouphanh YACHONGTOU">
                 <h3>ທ່ານ ບົວຄໍາ ແກ້ວມີໄຊ</h3>
                 <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ຫວຽດນາມ"</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -166,6 +171,7 @@
                 <img src="img/t6.png" alt="Mr. Bouphanh YACHONGTOU">
                 <h3>ທ່ານ ບົວພັນ ຢ່າຈົ່ງຕູ່</h3>
                 <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ຈີນ"</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -179,7 +185,7 @@
                     <h4>ຂໍ້ມູນສ່ວນບຸກຄົນ</h4>
                     <li>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ " </li>
                     <li>ປະສົບການແປ: ຫຼາຍກວ່າ 5 ປີ</li>
-                    <li>ວຸດທິການສຶກສາ: ປະລິນຍາໂທ</li>
+                    <li>ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</li>
                     <li>ສາຂາຮຽນ: ການບໍລິການເສດຖະກິດ,ອັກສອນສາດພາສາຈີນ </li>
                     <li>ຂະແໜງການ: ນິຕິກໍາ, ກົດໝາຍ, ສັນຍາ, ການເງິນ, ການຄ້າ-ການລົງທຶນ,  ແລະ ເອກະສານທົ່ວໄປ</li>
                    
@@ -194,6 +200,7 @@
                 <img src="img/t7.png" alt="Mr. Thittanouxay LENGSAWATH">
                 <h3>ທ່ານ ທິດທະນູໄຊ ເລັ່ງສະຫວັດ</h3>
                 <p>ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ "</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -223,6 +230,7 @@
                 <img src="img/t8.png" alt="Ms. Lamtiane KHOUTPHILAVANH">
                 <h3>ທ່ານ ນາງ ລຳທຽນ ຄຸດພິລາວັນ</h3>
                 <p> ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ຈີນ "</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -251,6 +259,7 @@
                 <img src="img/t9.png" alt="Mr. Khamla SAE-EUNG">
                 <h3>ທ້າວ ຄຳຫຼ້າ ແຊ່ອື້ງ</h3>
                 <p> ຜູ້ຊ່ຽວຊານການແປພາສາ " ລາວ-ອັງກິດ-ໄທ "</p>
+                <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
