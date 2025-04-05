@@ -37,10 +37,10 @@
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">ຕິດຕໍ່ພວກເຮົາ</a>
                 <div class="social-icons-primary">
-                    <a href="https://wa.me/85602052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/100063771757619" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/85602052774279" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/100063771757619" target="_blank" rel="noopener noreferrer" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:techart.translation@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" target="_blank" rel="noopener noreferrer" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>

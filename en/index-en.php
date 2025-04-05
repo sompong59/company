@@ -1,9 +1,10 @@
-<?php $pageTitle = "TECHART Foreign Language Translation Services Company Limited"; ?>
+<?php $pageTitle = "TECHART Translation Company | Translation Services "; ?>
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="TECHART Foreign Language Translation Services Company Limited provides accurate, reliable, and fast translation services. Request a free quote today!">
+    <meta name="keywords" content="translation services, language translation, document translation, certified translation, English translation, Lao translation, Thai translation">    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <link rel="shortcut icon" href="../img/logo.jpeg" type="logo">
     <link rel="stylesheet" href="../css/process.css">
@@ -60,10 +61,10 @@
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">Contact Us</a>
                 <div class="social-icons-primary">
-                    <a href="https://wa.me/85602052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/85602052774279" target="_blank" rel="noopener noreferrer" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/100063771757619/posts/1195387369263644/" target="_blank" rel="noopener noreferrer" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:techart.translation@gmail.com" target="_blank" rel="noopener noreferrer" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
+                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" target="_blank" rel="noopener noreferrer" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>

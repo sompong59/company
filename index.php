@@ -1,8 +1,10 @@
-<?php $pageTitle = "ບໍລິສັດ ເທັກອາດ ບໍລິການແປພາສາຕ່າງປະເທດຈຳກັດ"; ?>
+<?php $pageTitle = "ບໍລິສັດເທັກອາດ ບໍລິການແປພາສາ | ບໍລິການແປພາສາ ແລະ ຢັ້ງຢືນເອກະສານ"; ?>
 <!DOCTYPE html>
 <html lang="lo">
 <head>
     <meta charset="UTF-8">
+    <meta name="description" content="ບໍລິສັດ ເທັກອາດ ບໍລິການແປພາສາຕ່າງປະເທດຈຳກັດ ໃຫ້ບໍລິການແປເອກະສານພ້ອມຢັ້ງຢືນທີ່ຖືກຕ້ອງ, ວ່ອງໄວ ແລະທັນໃຈ ຫຼາຍພາສາ. ສອບຖາມຂໍ້ມູນເບື້ອງຕົ້ນໄດ້ທີ່ນີ້.">
+    <meta name="keywords" content="ແປພາສາ, ບໍລິສັດແປພາສາ, ແປເອກະສານ, ຢັ້ງຢືນການແປ, ພາສາລາວ, ພາສາໄທ, ພາສາອັງກິດ, ພາສາຈີນ, ພາສາຫວຽດນາມ">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title><?php echo $pageTitle; ?></title>
     <link rel="shortcut icon" href="img/logo.jpeg" type="logo">
@@ -59,10 +61,10 @@
             <div class="contact-info">
                 <a href="maps.php" class="button-primary">ຕິດຕໍ່ພວກເຮົາ</a>
                 <div class="social-icons-primary">
-                    <a href="https://wa.me/8562052774279" class="social-icon" title="WhatsApp"><i class="fab fa-whatsapp"></i></a>
-                    <a href="https://www.facebook.com/100063771757619/" class="social-icon" title="Facebook"><i class="fab fa-facebook-f"></i></a>
-                    <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email"><i class="fas fa-envelope"></i></a>
-                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube"><i class="fab fa-youtube"></i></a>
+                    <a href="https://wa.me/8562052774279" class="social-icon" title="WhatsApp" target="_blank" rel="noopener noreferrer"><i class="fab fa-whatsapp"></i></a>
+                    <a href="https://www.facebook.com/100063771757619/" class="social-icon" title="Facebook" target="_blank" rel="noopener noreferrer"><i class="fab fa-facebook-f"></i></a>
+                    <a href="mailto:techart.translation@gmail.com" class="social-icon" title="Email" target="_blank" rel="noopener noreferrer"><i class="fas fa-envelope"></i></a>
+                    <a href="https://youtube.com/@techarttranslation?si=0MuDS1YmwsIfGqxq" class="social-icon" title="YouTube" target="_blank" rel="noopener noreferrer"><i class="fab fa-youtube"></i></a>
                 </div>
             </div>
         </div>
