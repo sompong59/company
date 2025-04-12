@@ -84,6 +84,8 @@
                 <h3>ທ່ານ ອາລຸນນາ ຄຳຮຸ່ງ</h3>
                 <p>ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ, ຟຣັ່ງ "</p>
                 <p>ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາເອກ </p>
+                <p>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</p>
+                
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>
@@ -114,6 +116,7 @@
                 <h3>ທ່ານ ຈັດຕະວາ ມາດມະນີສອນ</h3>
                 <p> ຜູ້ຊ່ຽວຊານການແປພາສາ" ລາວ-ອັງກິດ "</p>
                 <p> ວຸດທິການສຶກສາ: ລະດັບປະລິນຍາໂທ</p>
+                <p>ປະສົບການແປ: ຫຼາຍກວ່າ 10 ປີ</p>
                 <div class="team-member-social-icons">
                     <a href="#" class="fab fa-facebook-f"></a>
                     <a href="#" class="fab fa-whatsapp"></a>

@@ -17,10 +17,10 @@
 <div class="service-container">
     <div class="translate-top-section">
     <div class="translate-top-section-content">
-    <h2>What is Certified Document Translation?</h2>
-    <p>Translation and Certification of All Documents Service. Documents are translated from one language to another, such as from a local language to a foreign language. Each document is then signed and certified with an official stamp from our company.</p>
+    <h2>What types of translation and certified document translation services do we offer?</h2>
+    <p>We provide comprehensive translation and certified document translation services. Our offerings include translating various documents from Lao to foreign languages, as well as translations between other languages. Each document is meticulously translated and comes with a certification, including a signature and an official stamp from our company, ensuring authenticity and accuracy.</p>
 </div>
-        </div>
+    </div>
     <div class="containercard">
        
         <div class="service-card">

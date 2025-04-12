@@ -38,7 +38,7 @@
                     </div>
                     <div class="team-member-back">
                         <ul>
-                            <h4>Personal data</h4>
+                            <h4>Personal</h4>
                             <li>Managing Director (CEO) </li>
                             <li>Master of Finance and Banking </li>
                             <li>Bachelor of Art</li>
@@ -64,7 +64,7 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data</h4>
+                        <h4>Personal</h4>
                         <li> " Manager " </li>
                         <li>Bachelor's degree</li>
                         <li>Major: ICT</li>
@@ -84,8 +84,11 @@
                 <div class="team-member-front">
                     <img src="../img/t3.png" alt="Mr. Alounna KHAMHOUNG">
                     <h3>Mr. Alounna KHAMHOUNG"</h3>
-                    <p> " Lao - French "</p>
+
+                    <p>Expertise: Lao - French</p>
                     <p>Doctoral degree</p>
+                    <p>Translation Experience: Over 10 years</p>
+
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -96,11 +99,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                           <li>Expertise: Lao - French</li>
                           <li>Translation Experience: Over 10 years</li>
                           <li>PHD</li>
-                          <li>Field of Study: International Relations and International Law </li>
+                          <li>Major: International Relations and International Law </li>
                           <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
                         </ul>
                        
@@ -126,11 +129,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao-English</li>
                         <li>Translation Experience: Over 10 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: Human Resource and Business Management </li>
+                        <li>Major: Human Resource and Business Management </li>
                         <li>Sectors: Leagal terms, Law, Finance and Trading, Project and Investment, Hydro Power and </li>
                       </ul>
                    
@@ -154,11 +157,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao - Vietnamese</li>
                         <li>Translation Experience: Over 10 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: Education Management  </li>
+                        <li>Major: Education Management  </li>
                         <li>Sectors: Education, Health, Agriculture and Environment and Law </li>
                       </ul>
                    
@@ -182,11 +185,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa </li>
                         <li>Translation Experience: Over 5 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: Business Management, Chinese Sector </li>
+                        <li>Major: Business Management, Chinese Sector </li>
                         <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
                       </ul>
                    
@@ -210,11 +213,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa</li>
                         <li>Translation Experience: Over 10 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: International Relations and International Law </li>
+                        <li>Major: International Relations and International Law </li>
                         <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
                       </ul>
                    
@@ -239,11 +242,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa </li>
                         <li>Translation Experience: Over 10 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: Business Management, Finance and Trading  </li>
+                        <li>Major: Business Management, Finance and Trading  </li>
                         <li>Sectors: Leagal terms, Law, Finance and Trading, Project and Investment, Hydro Power and General Terms </li>
                       </ul>
                    
@@ -267,11 +270,11 @@
                 </div>
                 <div class="team-member-back">
                     <ul>
-                        <h4>Personal data </h4>
+                        <h4>Personal</h4>
                         <li>Expertise: Lao-English-Thai </li>
                         <li>Translation Experience: Over 20 years</li>
                         <li>Master Degree</li>
-                        <li>Field of Study: Education Management  </li>
+                        <li>Major: Education Management  </li>
                         <li>Sectors: Education, Health, Agriculture and Environment and Law </li>
                       </ul>
                    

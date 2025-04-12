@@ -58,6 +58,14 @@ body {
     transition: transform 0.3s ease; /* ເພີ່ມ transition */
 
 }
+.contact-item a{
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 
 .icon-contact:hover {
     transform: translateY(-5px);

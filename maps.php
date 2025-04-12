@@ -26,7 +26,7 @@
                 <div class="icon-contact"><i class="fas fa-mobile-alt"></i></div>
                 <div>
                     <h3>ໂທຫາພວກເຮົາ</h3>
-                    <p>ພະນັກງານຂອງພວກເຮົາເວົ້າໄດ້ທັງພາສາລາວ ແລະ ພາສາອັງກິດ</p>
+                    <p>ສາມາດຕິດຕໍ່ ແລະ ສອບຖາມຂໍ້ມູນກັບພວກເຮົາໄດ້ຕະຫຼດເວລາ</p>
                     <p>020 5277 4279</p>
                     <p>020 5251 9665</p>
                 </div>
@@ -47,15 +47,18 @@
                 </div>
             </div>
             <div class="contact-item">
-                <div class="icon-contact"><i class="fab fa-facebook-messenger"></i></div>
-                <div>
+                <div class="icon-contact"><a href="https://m.me/100063771757619" target="_blank" rel="noopener noreferrer">
+                    <i class="fab fa-facebook-messenger"></i></a></div>
+                <div></a>
                     <h3>Messenger</h3>
                     <p>ບໍລິສັດ ເທັກອາດ ບໍລິການແປພາສາຕ່າງປະເທດ</p>
                 </div>
             </div>
             <div class="contact-item">
-                <div class="icon-contact"><i class="fab fa-whatsapp"></i></div>
-                <div>
+                <a href="https://wa.me/85602052774279" target="_blank" rel="noopener noreferrer">
+                <div class="icon-contact">
+               <i class="fab fa-whatsapp"></i></a></div>
+                <div> 
                     <h3>WhatsApp</h3>
                     <p>020 5277 4279</p>
                     <p>020 5251 9665</p>

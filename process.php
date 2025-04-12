@@ -15,7 +15,7 @@
 <?php include 'header.html';?>
 <div class="div">
 <h2>ຂັ້ນຕອນການດຳເນີນການແປເອກະສານ</h2>
-<p class="pralagrap3">ຂັ້ນຕອນການດຳເນີນການແປເອກະສານປະກອບມີ 4 ຂັ້ນຕອນ ດັງລຸ່ມນີ້:</p>
+<p class="pralagrap3">ການດຳເນີນການແປເອກະສານ ປະກອບມີ 4 ຂັ້ນຕອນ ດັ່ງລຸ່ມນີ້:</p>
 </div>   
 <div class="card-container">
         <div class="card">
