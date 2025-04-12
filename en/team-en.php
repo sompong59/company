@@ -25,7 +25,7 @@
                 <div class="team-member-inner">
                     <div class="team-member-front">
                         <img src="../img/t1.png" alt="Mr. Sonphet Chitthavong">
-                        <h3>Mr. Sonphet Chitthavong</h3>            
+                        <h3>Mr. Sonephet CHITTAVONG</h3>            
                         <p> " Managing Director (CEO) "</p>
                         <p> (Master's degree) </p>
                         <div class="team-member-social-icons">
