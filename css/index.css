@@ -124,50 +124,7 @@ body {
   
 }
 
-.social-icons {
-    margin-top: 20px;
-    display: flex;
-    justify-content: center;
-}
 
-.social-icon {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    width: 50px;
-    height: 50px;
-    background-color: #f0f0f0;
-    border-radius: 50%;
-    margin: 0 15px;
-    color: #333;
-    text-decoration: none;
-    transition: transform 0.3s ease, color 0.3s ease, background-color 0.3s ease;
-}
 
-.social-icon:hover {
-    transform: translateY(-5px); /* ເດັ້ງໄອຄອນຂຶ້ນ */
-}
 
-.social-icon:hover i {
-    color: #fff; /* ປ່ຽນສີໄອຄອນເປັນສີຂາວເມື່ອເມົາໄປຊີ */
-}
 
-.social-icon:hover {
-    background-color: #25D366; /* ສີຂຽວສໍາລັບ WhatsApp */
-}
-
-.social-icon:nth-child(2):hover {
-    background-color: #1877F2; /* ສີຟ້າສໍາລັບ Facebook */
-}
-
-.social-icon:nth-child(3):hover {
-    background-color: #D44638; /* ສີແດງສໍາລັບ Email */
-}
-
-.social-icon:nth-child(4):hover {
-    background-color: #000000; /* ສີດໍາສໍາລັບ TikTok */
-}
-.social-icon i {
-    font-size: 20px; /* ເພີ່ມຂະໜາດໄອຄອນເປັນ 30px */
-}
-/* ຖ້າເຈົ້າມີໄອຄອນອື່ນໆ, ເພີ່ມ CSS ທີ່ນີ້ */

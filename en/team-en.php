@@ -27,7 +27,7 @@
                         <img src="../img/t1.png" alt="Mr. Sonphet Chitthavong">
                         <h3>Mr. Sonphet Chitthavong</h3>            
                         <p> " Managing Director (CEO) "</p>
-                        <p> Master's degree </p>
+                        <p> (Master's degree) </p>
                         <div class="team-member-social-icons">
                             <a href="#" class="fab fa-facebook-f"></a>
                             <a href="#" class="fab fa-whatsapp"></a>
@@ -53,7 +53,7 @@
                     <img src="../img/t2.png" alt="Ms. Pinthong SOUKPHALEE">
                     <h3>Ms. Pinthong SOUKPHALEE</h3>
                     <p>" Manager "</p>
-                    <p> Bachelor's degree</p>
+                    <p> (Bachelor's degree)</p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -84,10 +84,9 @@
                 <div class="team-member-front">
                     <img src="../img/t3.png" alt="Mr. Alounna KHAMHOUNG">
                     <h3>Mr. Alounna KHAMHOUNG"</h3>
-
-                    <p>Expertise: Lao - French</p>
-                    <p>Doctoral degree</p>
-                    <p>Translation Experience: Over 10 years</p>
+                    <p>Expertise : Lao-French-English and vice versa </p>
+                    <p>(Doctoral Degree)</p>
+                    <p>Experience: Over 10 years</p>
 
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
@@ -100,9 +99,9 @@
                 <div class="team-member-back">
                     <ul>
                         <h4>Personal</h4>
-                          <li>Expertise: Lao - French</li>
-                          <li>Translation Experience: Over 10 years</li>
-                          <li>PHD</li>
+                          <li>Expertise: Lao-French-English</li>
+                          <li>Experience: Over 10 years</li>
+                          <li>(Doctoral Degree)</li>
                           <li>Major: International Relations and International Law </li>
                           <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
                         </ul>
@@ -117,8 +116,9 @@
                 <div class="team-member-front">
                     <img src="../img/t4.png" alt="Mr. Chattava MATMANISONE">
                     <h3>Mr. Chattava MATMANISONE</h3>
-                    <p>" Lao-English "</p>
-                    <p> Master's degree </p>
+                    <p>Expertise: Lao-English-Lao and vice versa</p>
+                    <p>Experience: Over 10 years</p>
+                    <p>(Master's Degree) </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -130,8 +130,8 @@
                 <div class="team-member-back">
                     <ul>
                         <h4>Personal</h4>
-                        <li>Expertise: Lao-English</li>
-                        <li>Translation Experience: Over 10 years</li>
+                        <li>Expertise: Lao-English-Lao and vice versa</li>
+                        <li>Experience: Over 10 years</li>
                         <li>Master Degree</li>
                         <li>Major: Human Resource and Business Management </li>
                         <li>Sectors: Leagal terms, Law, Finance and Trading, Project and Investment, Hydro Power and </li>
@@ -145,8 +145,9 @@
                 <div class="team-member-front">
                     <img src="../img/t5.png" alt="Mr. Bouakham KEOMIXAY">
                     <h3>Mr. Bouakham KEOMIXAY</h3>
-                    <p> " Lao-Vietnamese "</p>
-                    <p> Master's degree </p>
+                    <p>Expertise: Lao-Vietnamese-Lao and vice versa </p>
+                    <p>Experience: Over 10 years</p>
+                    <p> (Master's degree)</p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -158,10 +159,10 @@
                 <div class="team-member-back">
                     <ul>
                         <h4>Personal</h4>
-                        <li>Expertise: Lao - Vietnamese</li>
-                        <li>Translation Experience: Over 10 years</li>
+                        <li>Expertise: Lao - Vietnamese - Lao</li>
+                        <li>Experience: Over 10 years</li>
                         <li>Master Degree</li>
-                        <li>Major: Education Management  </li>
+                        <li>Major: Education Management </li>
                         <li>Sectors: Education, Health, Agriculture and Environment and Law </li>
                       </ul>
                    
@@ -173,8 +174,9 @@
                 <div class="team-member-front">
                     <img src="../img/t6.png" alt="Mr. Bouphanh YACHONGTOU">
                     <h3>Mr. Bouphanh YACHONGTOU</h3>
-                    <p> " Lao - Chinese visa "</p>
-                    <p> Master's degree </p>
+                    <p> Expertise: Lao-Chinese-Lao and vice versa</p>
+                    <p> Experience: Over 05 years</p>
+                    <p> (Master's degree) </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -187,7 +189,7 @@
                     <ul>
                         <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa </li>
-                        <li>Translation Experience: Over 5 years</li>
+                        <li>Experience: Over 5 years</li>
                         <li>Master Degree</li>
                         <li>Major: Business Management, Chinese Sector </li>
                         <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
@@ -201,8 +203,9 @@
                 <div class="team-member-front">
                     <img src="../img/t7.png" alt="Mr. Thittanouxay LENGSAWATH">
                     <h3> Mr. Thittanouxay LENGSAWATH </h3>
-                    <p>" Lao - Chinese visa "</p>
-                    <p> Master's degree </p>
+                    <p> Expertise: Lao-Chinese-Lao and vice versa</p>
+                    <p> Experience: Over 10 years</p>
+                    <p> (Master's degree) </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -215,7 +218,7 @@
                     <ul>
                         <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa</li>
-                        <li>Translation Experience: Over 10 years</li>
+                        <li>Experience: Over 10 years</li>
                         <li>Master Degree</li>
                         <li>Major: International Relations and International Law </li>
                         <li>Sectors: Leagal terms, Law, Finance -Trading and General Terms </li>
@@ -230,8 +233,9 @@
                 <div class="team-member-front">
                     <img src="../img/t8.png" alt="Ms. Lamtiane KHOUTPHILAVANH">
                     <h3>Ms. Lamtiane KHOUTPHILAVANH </h3>
-                    <p>  " Lao - Chinese visa "</p>
-                    <p> Master's degree </p>
+                    <p>Expertise: Lao-Chinese-Lao and vice versa</p>
+                    <p>Experience: Over 10 years</p>
+                    <p> (Master's degree) </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -244,7 +248,7 @@
                     <ul>
                         <h4>Personal</h4>
                         <li>Expertise: Lao - Chinese visa </li>
-                        <li>Translation Experience: Over 10 years</li>
+                        <li>Experience: Over 10 years</li>
                         <li>Master Degree</li>
                         <li>Major: Business Management, Finance and Trading  </li>
                         <li>Sectors: Leagal terms, Law, Finance and Trading, Project and Investment, Hydro Power and General Terms </li>
@@ -258,8 +262,9 @@
                 <div class="team-member-front">
                     <img src="../img/t9.png" alt="Mr. Khamla SAE-EUNG">
                     <h3>Mr. Khamla SAE-EUNG </h3>
-                    <p>  " Lao - English - Thai "</p>
-                    <p> Master's degree </p>
+                    <p>Expertise: Lao-English-Thai and vice versa</p>
+                    <p>Experience: Over 20 years</p>
+                    <p>(Master's degree) </p>
                     <div class="team-member-social-icons">
                         <a href="#" class="fab fa-facebook-f"></a>
                         <a href="#" class="fab fa-whatsapp"></a>
@@ -272,7 +277,7 @@
                     <ul>
                         <h4>Personal</h4>
                         <li>Expertise: Lao-English-Thai </li>
-                        <li>Translation Experience: Over 20 years</li>
+                        <li>Experience: Over 20 years</li>
                         <li>Master Degree</li>
                         <li>Major: Education Management  </li>
                         <li>Sectors: Education, Health, Agriculture and Environment and Law </li>
